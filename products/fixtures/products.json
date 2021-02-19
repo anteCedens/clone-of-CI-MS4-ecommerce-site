@@ -1,8 +1,8 @@
-[
-   {
+[ 
+   { 
       "pk": 1,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5001340155",
          "name": "John Peel",
          "author": "Wall, Mick",
@@ -16,10 +16,10 @@
          "image": "41dBkoEUzNL._SX326_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 2,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5001600425",
          "name": "The Olivetti Chronicles",
          "author": "Peel, John",
@@ -33,10 +33,10 @@
          "image": "51QLwevogAL._SX319_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 3,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5001730010",
          "name": "23 Things They Don't Tell You About Capitalism",
          "author": "Chang, Ha-Joon",
@@ -50,10 +50,10 @@
          "image": "515651qy1NL._SX322_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 4,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5001890157",
          "name": "Derek Jarman (Critical Lives)",
          "author": "Charlesworth, Michael",
@@ -67,10 +67,10 @@
          "image": "31FTcu9VIkL._SX325_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 5,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002111605",
          "name": "Thomas Sowell Reader",
          "author": "Sowell, Thomas",
@@ -84,10 +84,10 @@
          "image": "41bQ49MpBxL._SX327_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 6,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002260206",
          "name": "Derrida: A Very Short Introduction (Very Short Introductions)",
          "author": "Glendinning, Simon",
@@ -101,10 +101,10 @@
          "image": "418tRgl8MhL._SX304_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 7,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002440521",
          "name": "Barthes: A Very Short Introduction (Very Short Introductions)",
          "author": "Culler, Jonathan",
@@ -118,10 +118,10 @@
          "image": "51wZNiEo6cL._SX315_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 8,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002601115",
          "name": "The Uses of Literacy: Aspects of Working-Class Life (Penguin Modern Classics)",
          "author": "Hoggart, Richard",
@@ -135,10 +135,10 @@
          "image": "51SPSlc3m0L._SX324_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 9,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002690715",
          "name": "Sade, Fourier, Loyola",
          "author": "Barthes, Roland",
@@ -147,15 +147,15 @@
          "price": 80.74,
          "category": 2,
          "language": "",
-         "rating": "",
+         "rating": "4.5",
          "image_url": "https://images-na.ssl-images-amazon.com/images/I/41V0-Ur2lWL._SY279_BO1,204,203,200_.jpg",
          "image": "41V0-Ur2lWL._SY279_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 10,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002701115",
          "name": "Anatomy and Physiology",
          "author": "Betts, J. Gordon; Desaix, Peter; Johnson, Eddie; Johnson, Jody E.; Korol, Oksana; Kruse, Dean; Poe, Brandon; Wise, James A.; Womble, Mark; Young, Kelly A.",
@@ -169,10 +169,10 @@
          "image": "41b+kC7GQVL"
       }
    },
-   {
+   { 
       "pk": 11,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002761055",
          "name": "Elementary Algebra",
          "author": "Marecek, Lynn; Anthony-Smith, MaryAnne",
@@ -186,10 +186,10 @@
          "image": "41U6Caj1YoL"
       }
    },
-   {
+   { 
       "pk": 12,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002820069",
          "name": "Precalculus",
          "author": "Abramson, Jay",
@@ -203,10 +203,10 @@
          "image": "41OIG1yIfIL"
       }
    },
-   {
+   { 
       "pk": 13,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002820147",
          "name": "U.S. History",
          "author": "Corbett, P. Scott; Lund Janssen, Volker John M.; Pfannestiel, Todd; Vickery, Paul",
@@ -220,10 +220,10 @@
          "image": "41qthoPq73L"
       }
    },
-   {
+   { 
       "pk": 14,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002910572",
          "name": "Concepts of Biology",
          "author": "Fowler, Samantha; Roush, Rebecca; Wise, James",
@@ -237,10 +237,10 @@
          "image": "41iOwSrIByL"
       }
    },
-   {
+   { 
       "pk": 15,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5002990740",
          "name": "Introductory Statistics",
          "author": "Illowsky, Barbara; Dean, Susan",
@@ -254,10 +254,10 @@
          "image": "41osXGPfHpL"
       }
    },
-   {
+   { 
       "pk": 16,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003050248",
          "name": "Mythologies (Vintage Classics)",
          "author": "Barthes, Roland",
@@ -271,10 +271,10 @@
          "image": "41utpFVaE7L._SX325_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 17,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003070787",
          "name": "Introducing Barthes: A Graphic Guide",
          "author": "Thody, Philip; Piero",
@@ -288,10 +288,10 @@
          "image": "51RSAjzTaNL._SX347_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 18,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003090182",
          "name": "Understanding Statistics and Experimental Design : How to Not Lie with Statistics (Learning Materials in Biosciences)",
          "author": "Herzog, Michael H.; Francis, Gregory; Clarke, Aaron",
@@ -305,10 +305,10 @@
          "image": "41evT1GvHML"
       }
    },
-   {
+   { 
       "pk": 19,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003090186",
          "name": "Computer Science: A Very Short Introduction (Very Short Introductions)",
          "author": "Dasgupta, Subrata",
@@ -322,10 +322,10 @@
          "image": "51i27A0hvGL._SX317_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 20,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003161326",
          "name": "Tank Girl 1 (Remastered edition)",
          "author": " Martin, Alan; Hewlett, Jamie ",
@@ -339,10 +339,10 @@
          "image": "51NFaqH7kmL._SX328_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 21,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003230723",
          "name": "Tank Girl 3 (Remastered Edition)",
          "author": " Martin, Alan; Hewlett, Jamie ",
@@ -356,10 +356,10 @@
          "image": "51Plty7FLXL._SX328_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 22,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003270936",
          "name": "Tank Girl 2 (Remastered Edition)",
          "author": "Martin, Alan; Hewlett, Jamie",
@@ -373,10 +373,10 @@
          "image": "51AgRcHSmCL._SX328_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 23,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003360384",
          "name": "Introducing Kierkegaard: A Graphic Guide",
          "author": "Robinson, Dave; Zarate, Oscar ",
@@ -390,10 +390,10 @@
          "image": "51pC4RPycRL._SX345_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 24,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003440111",
          "name": "Introducing Continental Philosophy: A Graphic Guide",
          "author": "Kul-Want, Christopher; Piero",
@@ -407,10 +407,10 @@
          "image": "51eelOll0HL._SX349_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 25,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003540313",
          "name": "Introducing Existentialism: A Graphic Guide",
          "author": "Appignanesi, Richard; Zarate, Oscar",
@@ -424,10 +424,10 @@
          "image": "51FhVHYCmjL._SX349_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 26,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003560513",
          "name": "Shakespeare (Vintage Lives)",
          "author": "Burgess, Anthony",
@@ -441,10 +441,10 @@
          "image": "51wWEbER2IL._SX322_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 27,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003560948",
          "name": "Re Joyce",
          "author": "Burgess, Anthony",
@@ -458,10 +458,10 @@
          "image": "4165f3eGJgL._SX331_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 28,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003570628",
          "name": "The Complete Works of William Shakespeare: The Alexander Text (Collins Classics)",
          "author": "Shakespeare, William",
@@ -475,10 +475,10 @@
          "image": "51lor+HEO6L"
       }
    },
-   {
+   { 
       "pk": 29,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003620308",
          "name": "Introducing Logic: A Graphic Guide",
          "author": "Cryan, Dan; Shatil, Sharron; Mayblin, Bill",
@@ -492,10 +492,10 @@
          "image": "510yenbWc5L._SX349_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 30,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003690115",
          "name": "Introducing Derrida: A Graphic Guide",
          "author": "Collins, Jeff; Mayblin, Bill",
@@ -509,10 +509,10 @@
          "image": "51z+-+TTXkL._SX346_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 31,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003690116",
          "name": "Introducing Critical Theory: A Graphic Guide",
          "author": "Sim, Stuart; Van Loon, Borin",
@@ -526,10 +526,10 @@
          "image": "51icsfBgsTL._SX349_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 32,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003780391",
          "name": "Pro Git",
          "author": "Chacon, Scott; Straub, Ben",
@@ -543,10 +543,10 @@
          "image": "51QQtVlsWsL"
       }
    },
-   {
+   { 
       "pk": 33,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003790542",
          "name": "Python for Everybody: Exploring Data in Python 3",
          "author": "Severance, Charles; Andrion, Aimee",
@@ -560,10 +560,10 @@
          "image": "51lpFL7BFZL"
       }
    },
-   {
+   { 
       "pk": 34,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003831225",
          "name": "Statistics For Dummies, 2nd Edition (For Dummies (Lifestyle))",
          "author": "Rumsey, Deborah J.",
@@ -577,10 +577,10 @@
          "image": "510ji8hv83L._SX396_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 35,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003861402",
          "name": "Lectures on Probability Theory and Mathematical Statistics - 3rd Edition",
          "author": "Taboga, Marco",
@@ -594,10 +594,10 @@
          "image": "412tf1z1G0L._SX348_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 36,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003910638",
          "name": " The Art of Statistics: Learning from Data (Pelican Books)",
          "author": "Spiegelhalter, David",
@@ -611,10 +611,10 @@
          "image": "41avZxZMM4L._SX305_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 37,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003950574",
          "name": "jQuery: Novice to Ninja",
          "author": "Castledine, Earle; Sharkie, Craig",
@@ -628,10 +628,10 @@
          "image": "51flz8dUVJL._SX400_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 38,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003950576",
          "name": "CSS (with HTML5): Learn CSS in One Day and Learn It Well. CSS for Beginners with Hands-on Project. Includes HTML5. (Learn Coding Fast with Hands-On Project Book 2)",
          "author": "Chan, Jamie",
@@ -645,10 +645,10 @@
          "image": "51tmSgIwQSL"
       }
    },
-   {
+   { 
       "pk": 39,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003960062",
          "name": "PHP: Learn PHP in One Day and Learn It Well. PHP for Beginners with Hands-on Project. (Learn Coding Fast with Hands-On Project Book 6)",
          "author": "Chan, Jamie",
@@ -662,10 +662,10 @@
          "image": "51dfjVcxrxL"
       }
    },
-   {
+   { 
       "pk": 40,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003960682",
          "name": "The Fundamentals of HTML5: Learn to Code So You Can Improve in Your Career!",
          "author": "Nijenhuis, T.J.P.",
@@ -679,10 +679,10 @@
          "image": "41WFOrq7WyL"
       }
    },
-   {
+   { 
       "pk": 41,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003960775",
          "name": "HTML5 Beginner to Professional Step by Step Training Guide",
          "author": "Kumar, Rajesh",
@@ -696,10 +696,10 @@
          "image": "41d7eZxtl6L"
       }
    },
-   {
+   { 
       "pk": 42,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003990736",
          "name": "The Joy of Bootstrap: A smarter way to learn the world's most popular web framework",
          "author": "Forbes, Alan",
@@ -713,10 +713,10 @@
          "image": "51+p6vUygeL"
       }
    },
-   {
+   { 
       "pk": 43,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5003990746",
          "name": "Python Tricks: A Buffet of Awesome Python Features",
          "author": "Bader, Dan",
@@ -730,10 +730,10 @@
          "image": "51z7XBWJb2L"
       }
    },
-   {
+   { 
       "pk": 44,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004111503",
          "name": "Python Workbook: Learn Python in one day and Learn It Well (Learn Coding Fast Workbook 1)",
          "author": "Chan, Jamie",
@@ -747,10 +747,10 @@
          "image": "51MCJBbJQXL"
       }
    },
-   {
+   { 
       "pk": 45,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004230059",
          "name": "Learn Coding Basics in Hours with JavaScript: An Introduction to Computer Programming for Absolute Beginners",
          "author": "Stanley, Jack; Gross, Erik",
@@ -764,10 +764,10 @@
          "image": "41FaquhvGbL"
       }
    },
-   {
+   { 
       "pk": 46,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004310089",
          "name": "The C# Programming Yellow Book",
          "author": "Miles, Rob",
@@ -781,10 +781,10 @@
          "image": "41l9j22l7xL"
       }
    },
-   {
+   { 
       "pk": 47,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004610254",
          "name": "SQL: Learn SQL (using MySQL) in One Day and Learn It Well (Learn Coding Fast with Hands-On Project Book 5)",
          "author": "Chan, Jamie",
@@ -798,10 +798,10 @@
          "image": "51xD7Z6BAuL"
       }
    },
-   {
+   { 
       "pk": 48,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004650050",
          "name": "A Practical Guide to Git and GitHub for Windows Users: From Beginner to Expert in Easy Step-By-Step Exercises",
          "author": "Vormittag, Roberto",
@@ -815,10 +815,10 @@
          "image": "51Jd-B+tAwL"
       }
    },
-   {
+   { 
       "pk": 49,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004821375",
          "name": "The Linux Command Line Beginner's Guide",
          "author": "Moeller, Jonathan",
@@ -832,10 +832,10 @@
          "image": "511utqN1BwL"
       }
    },
-   {
+   { 
       "pk": 50,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004900522",
          "name": "Coding for Beginners: Using Python",
          "author": "Stowell, Louie",
@@ -849,10 +849,10 @@
          "image": "61RDtukB7DL"
       }
    },
-   {
+   { 
       "pk": 51,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004910158",
          "name": "Learn AngularJS in 1 Day: Complete Angular JS Guide with Examples",
          "author": "Rungta, Krishna",
@@ -866,10 +866,10 @@
          "image": "51ZY+asOq9L._SX384_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 52,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004910477",
          "name": "Probability Theory: A Concise Course (Dover Books on Mathematics)",
          "author": "Rozanov, Y. A.",
@@ -883,10 +883,10 @@
          "image": "413gQh90ZgL._SX322_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 53,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004940703",
          "name": "Vue JS Crash Course : Learn all about Vue.js including what it is, Vue-CLI, components, data, events, directives, etc",
          "author": "Wountrang Publications",
@@ -895,15 +895,15 @@
          "price": 8.7,
          "category": 2,
          "language": "",
-         "rating": "",
+         "rating": "4.5",
          "image_url": "https://m.media-amazon.com/images/I/411t-fJndqL.jpg",
          "image": "411t-fJndqL"
       }
    },
-   {
+   { 
       "pk": 54,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004991006",
          "name": "Angular JS: 'A Code Like a Pro Guide' For AngularJS Beginners",
          "author": "Bates, Jonathan",
@@ -917,10 +917,10 @@
          "image": "51FwuAIXBvL"
       }
    },
-   {
+   { 
       "pk": 55,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5004991162",
          "name": "Coding with AngularJS For Dummies: Introduction to Developing Web Applications with AngularJS",
          "author": "Aronowitz, Alexander",
@@ -929,15 +929,15 @@
          "price": 15.42,
          "category": 2,
          "language": "",
-         "rating": "",
+         "rating": "4.5",
          "image_url": "https://m.media-amazon.com/images/I/41ZV464XBkL.jpg",
          "image": "41ZV464XBkL"
       }
    },
-   {
+   { 
       "pk": 56,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005000046",
          "name": "Learning React js: Learn React JS From Scratch with Hands-On Projects , 2nd Edition",
          "author": "Alves, Claudia",
@@ -951,10 +951,10 @@
          "image": "419fw0tHJ4L"
       }
    },
-   {
+   { 
       "pk": 57,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005070254",
          "name": "The Life and Times of Little Richard: The Authorised Biography",
          "author": "White, Charles",
@@ -968,10 +968,10 @@
          "image": "41WYq0qDmoL._SX311_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 58,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005071145",
          "name": "The Thief's Journal",
          "author": "Genet, Jean",
@@ -985,10 +985,10 @@
          "image": "411j940W7OL._SX324_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 59,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005140282",
          "name": "Our Lady of the Flowers",
          "author": "Genet, Jean",
@@ -1002,10 +1002,10 @@
          "image": "41CqzvT+FFL._SX324_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 60,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005200166",
          "name": "Memoirs (Penguin Modern Classics)",
          "author": "Williams, Tennessee",
@@ -1019,10 +1019,10 @@
          "image": "41CqzvT+FFL._SX324_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 61,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005210241",
          "name": "If Chins Could Kill: Confessions of a B Movie Actor",
          "author": "Campbell, Bruce",
@@ -1036,10 +1036,10 @@
          "image": "513hCiUGZML._SX312_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 62,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005280104",
          "name": "America",
          "author": "Baudrillard, Jean",
@@ -1053,10 +1053,10 @@
          "image": "41F-SWZPF5L._SX329_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 63,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005310360",
          "name": "A User’s Guide to the Millennium: Essays and Reviews",
          "author": "Ballard, J. G.",
@@ -1070,10 +1070,10 @@
          "image": "51jJhuxCdoL._SX331_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 64,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005330595",
          "name": "Flim-Flam!: Psychics, ESP, Unicorns and other Delusions",
          "author": "Randi, James",
@@ -1087,10 +1087,10 @@
          "image": "413PFP04T3L._SX326_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 65,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005330596",
          "name": "Where Does Money Come From?",
          "author": "Ryan-Collins, Josh; Greenham, Tony; Werner, Richard; Jackson, Andrew",
@@ -1104,10 +1104,10 @@
          "image": "41UNKQsFpUL._SX331_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 66,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005430914",
          "name": "The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns",
          "author": "Bogle, John C.",
@@ -1121,10 +1121,10 @@
          "image": "51cCQzs8EBL._SX352_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 67,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005430944",
          "name": "The Essays of Warren Buffett: Lessons for Investors and Managers",
          "author": "Cunningham, Lawrence A.",
@@ -1138,10 +1138,10 @@
          "image": "51+PhnbYqYL._SX331_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 68,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005510265",
          "name": "Upheavals of Thought: The Intelligence of Emotions",
          "author": "Nussbaum, Martha C.",
@@ -1155,10 +1155,10 @@
          "image": "41gSXHP+GtL._SX331_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 69,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005520201",
          "name": "Beksiński: Fotografia/photography",
          "author": "Banach, Wieslaw",
@@ -1172,10 +1172,10 @@
          "image": "418BALm4kaL._SX348_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 70,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005520205",
          "name": "Beksinski : Malarstwo / Painting",
          "author": "Banach, Wieslaw",
@@ -1189,10 +1189,10 @@
          "image": "512E7uwmUPL._SX367_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 71,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005630545",
          "name": "Origins of Psychic Phenomena: Poltergeists, Incubi, Succubi, and the Unconscious",
          "author": "Gooch, Stan",
@@ -1206,10 +1206,10 @@
          "image": "51v95efUBML._SX331_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 72,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005630605",
          "name": "The Gilded Gutter Life Of Francis Bacon: The Authorized Biography",
          "author": "Farson, Daniel",
@@ -1223,10 +1223,10 @@
          "image": "51RhxkjILAL._SX323_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 73,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005630637",
          "name": "Interviews with Francis Bacon: The Brutality of Fact",
          "author": "Sylvester, David",
@@ -1240,10 +1240,10 @@
          "image": "41X5vLCReuL._SX332_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 74,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005630638",
          "name": "If This Is a Man / The Truce",
          "author": "Levi, Primo",
@@ -1257,10 +1257,10 @@
          "image": "41lLG-8G2uL._SX311_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 75,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005650677",
          "name": "The Periodic Table (Penguin Modern Classics)",
          "author": "Levi, Primo",
@@ -1274,10 +1274,10 @@
          "image": "510yyxydRnL._SX324_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 76,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005700140",
          "name": "The Portable Atheist: Essential Readings for the Non-Believer",
          "author": "Hitchens, Christopher",
@@ -1291,10 +1291,10 @@
          "image": "51EKvw6DnfL._SY321_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 77,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005740430",
          "name": "Solitary Fitness - the Ultimate Workout from Britain's Most Notorious Prisoner",
          "author": "Bronson, Charles",
@@ -1308,10 +1308,10 @@
          "image": "51PJ0ML1GoL._SX322_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 78,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005740561",
          "name": "Chopper Unchopped",
          "author": "Read, Mark Brandon",
@@ -1325,10 +1325,10 @@
          "image": "51YKDcRzvmL"
       }
    },
-   {
+   { 
       "pk": 79,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005740634",
          "name": "The Rough Guide to Rock",
          "author": "Buckley, Jonathan",
@@ -1342,10 +1342,10 @@
          "image": "51RFEG4GS6L._SX347_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 80,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005760088",
          "name": "The Rough Guide to Sci-Fi Movies",
          "author": "Scalzi, John",
@@ -1359,10 +1359,10 @@
          "image": "515YRVD59DL._SY496_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 81,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005810108",
          "name": "The Rough Guide to Heavy Metal",
          "author": "Berelian, Essi",
@@ -1376,10 +1376,10 @@
          "image": "51G8XBP4M5L._SX350_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 82,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005820197",
          "name": "The Rough Guide to Soul and R&B",
          "author": "Shapiro, Peter",
@@ -1393,10 +1393,10 @@
          "image": "51v2xvIGIFL._SX356_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 83,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005840598",
          "name": "The Rough Guide to Horror Movies",
          "author": "Jones, Alan",
@@ -1410,10 +1410,10 @@
          "image": "51pyS97q1oL._SX490_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 84,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005840776",
          "name": "The Rough Guide to Cult Movies - 2nd Edition",
          "author": "Simpson, Paul",
@@ -1427,10 +1427,10 @@
          "image": "21ldKSYT-RL._BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 85,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005850180",
          "name": "The Rough Guide to Punk",
          "author": "Spicer, Al",
@@ -1444,10 +1444,10 @@
          "image": "51UM21d0BAL._SX358_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 86,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005851218",
          "name": "Hatchet Job: Love Movies, Hate Critics",
          "author": "Kermode, Mark",
@@ -1461,10 +1461,10 @@
          "image": "513p-n8PjWL._SX328_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 87,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005860175",
          "name": "Leo Tolstoy (Critical Lives)",
          "author": "Zorin, Andrei",
@@ -1478,10 +1478,10 @@
          "image": "41WrxEV3fRL._SX323_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 88,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005860263",
          "name": "The Good, the Bad and the Multiplex",
          "author": "Kermode, Mark",
@@ -1495,10 +1495,10 @@
          "image": "51HEQsi+5pL._SX323_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 89,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005870183",
          "name": "It's Only a Movie: Reel Life Adventures of a Film Obsessive",
          "author": "Kermode, Mark",
@@ -1512,10 +1512,10 @@
          "image": "51OSoEK9KfL._SX310_BO1,204,203,200_"
       }
    },
-   {
+   { 
       "pk": 90,
       "model": "products.product",
-      "fields": {
+      "fields": { 
          "sku": "pp5005870599",
          "name": "Oxford Modern English Grammar",
          "author": "Aarts, Bas",
@@ -1530,3 +1530,4 @@
       }
    }
 ]
+
