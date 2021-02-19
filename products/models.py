@@ -32,7 +32,7 @@ class Product(models.Model):
     name = models.TextField(max_length=254)
     author = models.TextField(max_length=254)
     publisher = models.CharField(max_length=254, null=True, blank=True)
-    year = models.IntegerField(max_length=4, null=True, blank=True)
+    year = models.IntegerField(null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     language = models.CharField(max_length=254, null=True, blank=True)
     rating = models.DecimalField(
