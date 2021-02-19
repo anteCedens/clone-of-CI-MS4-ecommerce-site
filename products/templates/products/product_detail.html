@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<body>
+    <div class="container">
+        <div class="notification is-primary">
+
+            <div class="card">
+                <div class="card-content">
+                    <p class="title">
+                        “{{ product.name }}”
+                    </p>
+                    {% if product.image %}
+                    <a href="{% url 'product_detail' product.id %}">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </a>
+                    {% else %}
+                    <a href="{% url 'product_detail' product.id %}">
+                        <img src="{{ MEDIA_URL }}no-image-available-icon-photo-camera-flat-vector-illustration-132483141.jpg"
+                            alt="{{ product.name }}">
+                    </a>
+                    {% endif %}
+                    <p class="subtitle">
+                        {{ product.author }}
+                    </p>
+                </div>
+                <footer class="card-footer">
+                    <p class="card-footer-item">
+                        <span>
+                            €{{ product.price }}
+                        </span>
+                    </p>
+                    <p class="card-footer-item">
+                        {% if product.rating %}
+                        <span>
+                            <i class="fas fa-star"></i> {{ product.rating }}
+                        </span>
+                        {% else %}
+                        <span>
+                            <i class="fas fa-star"></i> No Rating
+                        </span>
+                        {% endif %}
+                    </p>
+                    <p class="card-footer-item">
+                        {% if product.category %}
+                        <span>
+                            <!--The 'user friendly name' is displayed on the page,
+                            and the 'programmatic name' functions as the href-->
+                            <a href="{% url 'products' %}?category={{ product.category.name }}">
+                                <i class="fas fa-folder-open"></i> {{ product.category.friendly_name }}
+                            </a>
+                        </span>
+                        {% endif %}
+                    </p>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <form action="{% url 'add_to_bag' product.id %}" method="POST">
+            <!--
+            Because this form uses POST, we need to use the csrf_token,
+            in order to use Django's 'cross-site request forgery protection'.
+            This is a security precaution, and without this token Django wouldn't
+            allow us to submit the form.
+            -->
+            {% csrf_token %}
+            <div class="field">
+                <label class="label">Quantity:</label>
+                <div class="control">
+                    <input class="input" type="number" name="quantity" value="1" min="1" max="99"
+                        data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                </div>
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link" data-item_id="{{ product.id }}"
+                            id="decrement-qty_{{ product.id }}">
+                            <span class="icon">
+                                <i class="fas fa-minus"></i>
+                            </span>
+                        </button>
+                        <div class="control">
+                            <button class="button is-link" data-item_id="{{ product.id }}"
+                                id="increment-qty_{{ product.id }}">
+                                <span class="icon">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </button>
+                        </div>
+                       
+
+                </div>
+                <!--
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+            </div>
+            -->
+                <!--
+            <div class="field">
+                <label class="label">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                    </span>
+                </div>
+                <p class="help is-success">This username is available</p>
+            </div>
+
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+            </div>
+
+            <div class="field">
+                <label class="label">Subject</label>
+                <div class="control">
+                    <div class="select">
+                        <select>
+                            <option>Select dropdown</option>
+                            <option>With options</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="#">terms and conditions</a>
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="question">
+                        Yes
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="question">
+                        No
+                    </label>
+                </div>
+            </div>
+            -->
+                <!--<div class="field is-grouped">-->
+                <div class="control">
+                    <input type="submit" class="button is-link" value="Add to Bag">
+                </div>
+                <div>
+                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                </div>
+                <!--
+            <div class="control">
+                <button class="button is-link">Submit</button>
+            </div>
+            -->
+                <!--
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+                -->
+                <!--</div>-->
+
+        </form>
+    </div>
+
+</body>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/quantity_input_script.html' %}
+{% endblock %}

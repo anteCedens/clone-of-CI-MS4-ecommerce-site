@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+html, body {
+  font-family: 'Dekko', 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
+}
+
+.hero.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/media/books_vintage_wallpaper.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+.navbar-brand p {
+    font-size: 3em;
+}
+
+/* Make the logo only takes up as much space 
+as the text requires and no more. */
+.navbar-brand a {
+    width: fit-content;
+}
