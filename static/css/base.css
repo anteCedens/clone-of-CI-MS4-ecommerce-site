@@ -38,3 +38,7 @@ as the text requires and no more. */
 .navbar-brand a {
     width: fit-content;
 }
+
+.card-content p {
+    color: purple!important;
+}
