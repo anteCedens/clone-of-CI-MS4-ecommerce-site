@@ -41,4 +41,6 @@ as the text requires and no more. */
 
 .card-content p {
     color: purple!important;
+    text-align: justify!important;
+    text-justify: inter-word!important;
 }
