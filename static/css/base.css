@@ -120,11 +120,11 @@ https://codepen.io/designcouch/pen/OJPdZxg */
   animation: yAxis 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .bag {
-  position: fixed;
+  /*position: fixed;
   top: 20px;
   right: 20px;
   width: 50px;
-  height: 50px;
+  height: 50px;*/
   background: #292d48;
   display: flex;
   align-items: center;
