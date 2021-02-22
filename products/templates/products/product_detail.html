@@ -93,10 +93,10 @@
                                 </span>
                             </button>
                         </div>
-                       
 
-                </div>
-                <!--
+
+                    </div>
+                    <!--
             <div class="field">
                 <label class="label">Name</label>
                 <div class="control">
@@ -104,7 +104,7 @@
                 </div>
             </div>
             -->
-                <!--
+                    <!--
             <div class="field">
                 <label class="label">Username</label>
                 <div class="control has-icons-left has-icons-right">
@@ -174,24 +174,24 @@
                 </div>
             </div>
             -->
-                <!--<div class="field is-grouped">-->
-                <div class="control">
-                    <input type="submit" class="button is-link" value="Add to Bag">
-                </div>
-                <div>
-                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                </div>
-                <!--
+                    <!--<div class="field is-grouped">-->
+                    <div class="control">
+                        <input type="submit" class="button is-link" value="Add to Bag">
+                    </div>
+                    <div>
+                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                    <!--
             <div class="control">
                 <button class="button is-link">Submit</button>
             </div>
             -->
-                <!--
+                    <!--
                 <div class="control">
                     <button class="button is-link is-light">Cancel</button>
                 </div>
                 -->
-                <!--</div>-->
+                    <!--</div>-->
 
         </form>
     </div>
@@ -202,5 +202,25 @@
 
 {% block postloadjs %}
 {{ block.super }}
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#addtobag').on('click', function () {
+
+            var button = $(this);
+            var bag = $('#bag');
+            var bagTotal = bag.attr('data-totalitems');
+            var newBagTotal = parseInt(bagTotal) + 1;
+
+            button.addClass('sendtobag');
+            setTimeout(function () {
+                button.removeClass('sendtobag');
+                bag.addClass('shake').attr('data-totalitems', newBagTotal);
+                setTimeout(function () {
+                    bag.removeClass('shake');
+                }, 500)
+            }, 1000)
+        })
+    })
+</script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
