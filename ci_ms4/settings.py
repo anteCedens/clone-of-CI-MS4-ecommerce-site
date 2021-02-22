@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     # Other:
     'crispy_forms',
     'storages',
-    'django-crispy-bulma',
 ]
 
 MIDDLEWARE = [
@@ -68,8 +67,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'ci_ms4.urls'
 
-# CRISPY_TEMPLATE_PACK = 'bootstrap4'
-CRISPY_TEMPLATE_PACK = 'bulma'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
