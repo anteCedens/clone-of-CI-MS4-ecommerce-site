@@ -46,7 +46,7 @@
                 <td>
 
                     {% include "bag/quantity-form.html" %}
-                    
+
                     <a class="update-link text-info"><small>Update</small></a>
                     <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}
                     "><small>Remove</small></a>
@@ -92,7 +92,21 @@
 {% block postloadjs %}
 {{ block.super }}
 
+<!-- Mark Broomell's script -->
 <script type="text/javascript">
-    
+    function increaseValue() {
+        var value = parseInt(document.getElementById('number').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        document.getElementById('number').value = value;
+    }
+
+    function decreaseValue() {
+        var value = parseInt(document.getElementById('number').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value < 1 ? value = 1 : '';
+        value--;
+        document.getElementById('number').value = value;
+    }
 </script>
 {% endblock %}
