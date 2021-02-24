@@ -11,7 +11,7 @@
             </button>
         </div>
         <input type="number" class="input is-rounded is-small is-focused" name="quantity" value="{{ item.quantity }}"
-            min="1" max="99" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}" />
+            min="1" max="99" data-item_id="{{ item.item_id }}" id="bag_item_qty" />
         <div class="control">
             <button class="button is-link" data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}"
                 onclick="increaseValue()">

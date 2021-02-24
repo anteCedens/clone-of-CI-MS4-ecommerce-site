@@ -95,18 +95,18 @@
 <!-- Mark Broomell's script -->
 <script type="text/javascript">
     function increaseValue() {
-        var value = parseInt(document.getElementById('number').value, 10);
+        var value = parseInt(document.getElementById('bag_item_qty').value, 10);
         value = isNaN(value) ? 0 : value;
         value++;
-        document.getElementById('number').value = value;
+        document.getElementById('bag_item_qty').value = value;
     }
 
     function decreaseValue() {
-        var value = parseInt(document.getElementById('number').value, 10);
+        var value = parseInt(document.getElementById('bag_item_qty').value, 10);
         value = isNaN(value) ? 0 : value;
         value < 1 ? value = 1 : '';
         value--;
-        document.getElementById('number').value = value;
+        document.getElementById('bag_item_qty').value = value;
     }
 </script>
 {% endblock %}
