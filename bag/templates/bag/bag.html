@@ -45,32 +45,8 @@
                 </td>
                 <td>
 
-                    <form method="POST" action="{% url 'adjust_bag' item.item_id %}">
-                        {% csrf_token %}
-                        <div class="is-grouped">
-
-                            <div class="control">
-                                <button class="button is-link" data-item_id="{{ item.item_id }}"
-                                    id="decrement-qty_{{ item.item_id }}">
-                                    <span>
-                                        <i class="fas fa-minus"></i>
-                                    </span>
-                                </button>
-                            </div>
-                            <input type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
-                            <div class="control">
-                                <button class="button is-link" data-item_id="{{ item.item_id }}"
-                                    id="increment-qty_{{ item.item_id }}">
-                                    <span>
-                                        <i class="fas fa-plus"></i>
-                                    </span>
-                                </button>
-                            </div>
-
-
-                        </div>
-                    </form>
+                    {% include "bag/quantity-form.html" %}
+                    
                     <a class="update-link text-info"><small>Update</small></a>
                     <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}
                     "><small>Remove</small></a>
