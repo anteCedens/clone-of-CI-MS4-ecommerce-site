@@ -59,6 +59,11 @@ as the text requires and no more. */
     width: fit-content;
 }
 
+span[data-target="navbarMenu"] span {
+    height: 0.15em;
+    background-color: #ffffff;
+}
+
 .card-content p {
     color: purple!important;
     text-align: justify!important;
