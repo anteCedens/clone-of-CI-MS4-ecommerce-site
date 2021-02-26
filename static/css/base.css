@@ -39,6 +39,10 @@ html, body {
     font-size: 3em;
 }
 
+img[alt="Logo"] {
+    box-shadow: 0px 0px 5px #fff;
+}
+
 /* Make the logo only takes up as much space 
 as the text requires and no more. */
 .navbar-brand a {
