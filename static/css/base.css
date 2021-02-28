@@ -65,6 +65,11 @@ span[data-target="navbarMenu"] span {
     background-color: #ffffff;
 }
 
+/* Target dropup menu */
+div[class="dropdown-content"] {
+    background-color: transparent;
+}
+
 .card-content p {
     color: purple!important;
     text-align: justify!important;
