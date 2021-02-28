@@ -73,6 +73,7 @@ div[class="dropdown-content"] {
 a[class="dropdown-item"] {
     color: #ffffff;
     font-style: italic;
+    font-size: larger;
 }
 
 a[class="dropdown-item"]:hover {
