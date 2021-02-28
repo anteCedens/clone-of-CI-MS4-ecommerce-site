@@ -70,6 +70,12 @@ div[class="dropdown-content"] {
     background-color: transparent;
 }
 
+a[class="dropdown-item"] {
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
 .card-content p {
     color: purple!important;
     text-align: justify!important;
