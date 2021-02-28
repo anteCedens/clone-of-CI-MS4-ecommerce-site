@@ -65,7 +65,7 @@ span[data-target="navbarMenu"] span {
     background-color: #ffffff;
 }
 
-/* Target dropup menu */
+/* START: Target dropup menu */
 div[class="dropdown-content"] {
     background-color: transparent;
 }
@@ -73,8 +73,17 @@ div[class="dropdown-content"] {
 a[class="dropdown-item"] {
     color: #ffffff;
     font-style: italic;
-    text-shadow: 2px 2px 4px #ffffff;
 }
+
+a[class="dropdown-item"]:hover {
+    font-weight: bold!important;
+    text-shadow: 2px 2px 4px #ffffff!important;
+    background-color: transparent!important;
+    color: #ffffff!important;
+    font-size: large;
+}
+/* END: Target dropup menu */
+
 
 .card-content p {
     color: purple!important;
