@@ -103,6 +103,7 @@ a[class="dropdown-item"]:hover {
 }
 
 #myBtn {
+    /* This shade of green is from the Bulma documentation */
     background-color: hsl(141, 53%, 53%)!important;
     border-radius: 50%!important;
 }
