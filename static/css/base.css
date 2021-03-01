@@ -46,8 +46,13 @@ html, body {
 }
 
 /* Tagret the logo image */
-img[alt="Logo"] {
+/*img[alt="Logo"] {
     box-shadow: 0px 0px 5px #fff;
+}*/
+
+/* Tagret the logo image & text element */
+#site-logo:hover {
+    background-color: transparent;
 }
 
 /* Tagret the free-delivery-banner */
