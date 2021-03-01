@@ -85,6 +85,25 @@
                             </span>
 
                             <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="{% url 'view_bag' %}">
+                                    <span class="icon bag" id="bag" data-totalitems="0">
+                                        <i class="fas fa-shopping-bag fa-lg"></i>
+                                    </span>
+                                    <span>
+                                        <p>
+                                            {% if grand_total %}
+                                            €{{ grand_total|floatformat:2 }}
+                                            {% else %}
+                                            €0.00
+                                            {% endif %}
+                                        </p>
+                                    </span>
+
+                                    <span>View Bag</span>
+                                </a>
+                            </span>
+
+                             <span class="navbar-item">
 
                                 <div class="dropdown is-hoverable">
                                     <div class="dropdown-trigger">
@@ -111,24 +130,7 @@
                                 </div>
 
                             </span>
-                            <span class="navbar-item">
-                                <a class="button is-white is-outlined" href="{% url 'view_bag' %}">
-                                    <span class="icon bag" id="bag" data-totalitems="0">
-                                        <i class="fas fa-shopping-bag fa-lg"></i>
-                                    </span>
-                                    <span>
-                                        <p>
-                                            {% if grand_total %}
-                                            €{{ grand_total|floatformat:2 }}
-                                            {% else %}
-                                            €0.00
-                                            {% endif %}
-                                        </p>
-                                    </span>
-
-                                    <span>View Bag</span>
-                                </a>
-                            </span>
+                            
                         </div>
                     </div>
                 </div>
