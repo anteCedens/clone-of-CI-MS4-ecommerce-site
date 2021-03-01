@@ -108,6 +108,11 @@ a[class="dropdown-item"]:hover {
     border-radius: 50%!important;
 }
 
+#myBtn:hover {
+    /* To match the default Bulma tooltip color: 'grey-dark' */
+    background-color: hsl(0, 0%, 29%)!important;
+}
+
 .card-content p {
     color: purple!important;
     text-align: justify!important;
