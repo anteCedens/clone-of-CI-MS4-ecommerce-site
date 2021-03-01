@@ -22,6 +22,11 @@ html, body {
     font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
 }
 
+::placeholder {
+    font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
 .hero.is-info {
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
