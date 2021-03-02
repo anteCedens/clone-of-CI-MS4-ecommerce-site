@@ -80,8 +80,13 @@ span[data-target="navbarMenu"] span {
 
 /* START: Target dropup/dropdown menu */
 div[class="dropdown-content"], 
-div[class="dropdown-trigger"] button {
+#log-in-button button {
     background-color: transparent;
+}
+
+/* Make all the 'contents' of the #log-in-button the same color */
+#log-in-button * {
+    color: #ffffff;
 }
 
 a[class="dropdown-item"] {
