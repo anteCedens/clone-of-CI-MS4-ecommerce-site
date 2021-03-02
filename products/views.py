@@ -11,7 +11,17 @@ from django.db.models.functions import Lower
 def all_products(request):
     # A view to show all products, including sorting and search queries
 
-    products = Product.objects.all()
+    """
+    Randomize the display of products on each load (i.e. reshuffle).
+    Note warning/caveat on:
+    https://docs.djangoproject.com/en/3.1/ref/models/querysets/#order-by:
+        "Note: order_by('?') queries may be expensive and slow,
+        depending on the database backend you’re using."
+    Should this prove too cumbersome, just replace with:
+        "products = Product.objects.all()".
+    Products will then be ordered by 'SKU'.
+    """
+    products = Product.objects.order_by('?')
     # Set these intially to 'None', so as not cause errors
     query = None
     sort = None
