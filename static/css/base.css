@@ -79,7 +79,8 @@ span[data-target="navbarMenu"] span {
 }
 
 /* START: Target dropup/dropdown menu */
-div[class="dropdown-content"] {
+div[class="dropdown-content"], 
+div[class="dropdown-trigger"] button {
     background-color: transparent;
 }
 
