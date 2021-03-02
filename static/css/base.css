@@ -84,6 +84,11 @@ div[class="dropdown-content"],
     background-color: transparent;
 }
 
+a[data-tooltip="View your bag"]:hover {
+    background-color: transparent!important;
+    color: #ffffff!important;
+}
+
 /* Make all the 'contents' of the #log-in-button the same color */
 #log-in-button * {
     color: #ffffff;
