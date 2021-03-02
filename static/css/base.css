@@ -89,6 +89,12 @@ a[data-tooltip="View your bag"]:hover {
     color: #ffffff!important;
 }
 
+/* Tagret individual products/books as display on the products page,
+as they are displayed as Bulma 'cards' */
+.card {
+    background-color: transparent;
+}
+
 /* Make all the 'contents' of the #log-in-button the same color */
 #log-in-button * {
     color: #ffffff;
