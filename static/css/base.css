@@ -91,6 +91,12 @@ a[data-tooltip="View your bag"]:hover {
     box-shadow: 2px 2px #ffffff;
 }
 
+#search-button, 
+input[placeholder="Search for books!"], 
+input[placeholder="Search for books!"]:hover {
+    border: 1px solid #ffffff;
+}
+
 /* Target the Bag button */
 a[data-tooltip="View your bag"]:hover {
     background-color: transparent!important;
