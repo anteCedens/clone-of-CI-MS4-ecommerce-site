@@ -84,7 +84,8 @@ div[class="dropdown-content"],
     background-color: transparent;
 }
 
-#log-in-button button:hover {
+#log-in-button button:hover, 
+a[data-tooltip="View your bag"]:hover {
     border: 1px solid #ffffff;
     /* Alternatively set box-shadow to: 0 0 1px 1px #ffffff; */
     box-shadow: 2px 2px #ffffff;
