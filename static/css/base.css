@@ -90,6 +90,10 @@ a[data-tooltip="View your bag"]:hover {
     color: #ffffff!important;
 }
 
+#bag {
+    background-color: transparent;
+}
+
 /* Tagret individual products/books as display on the products page,
 as they are displayed as Bulma 'cards' */
 .card {
