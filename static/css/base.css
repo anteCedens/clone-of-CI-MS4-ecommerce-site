@@ -113,6 +113,10 @@ as they are displayed as Bulma 'cards' */
     background-color: transparent;
 }
 
+.card .card-content p[class="title"] {
+    color: #ffffff;
+}
+
 /* Make all the 'contents' of the #log-in-button the same color */
 #log-in-button * {
     color: #ffffff;
@@ -154,11 +158,13 @@ a[class="dropdown-item"]:hover {
     color: #ffffff;
 }
 
+/*
 .card-content p {
     color: purple!important;
     text-align: justify!important;
     text-justify: inter-word!important;
 }
+*/
 
 /* START: w3schools.com back-to-top button
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
