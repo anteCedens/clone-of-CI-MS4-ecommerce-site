@@ -186,7 +186,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
   font-size: 18px;
   border: none;
@@ -196,6 +196,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  /* There's a clash with Bulma sytles, so this is to push 
+  the aroww icon up tpwards the middle of the button */
+  line-height: 1;
 }
 
 #myBtn:hover {
