@@ -121,6 +121,16 @@ as they are displayed as Bulma 'cards' */
     padding: 0.5em 0;
 }
 
+.card footer[class="card-footer"] {
+    border: none;
+    color: #fff;
+}
+
+footer[class="card-footer"] .card-footer-item {
+    border: none;
+    padding: 0 0.5em;
+}
+
 /* Make all the 'contents' of the #log-in-button the same color */
 #log-in-button * {
     color: #ffffff;
