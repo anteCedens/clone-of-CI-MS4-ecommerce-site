@@ -197,7 +197,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   padding: 15px;
   border-radius: 4px;
   /* There's a clash with Bulma sytles, so this is to push 
-  the arrow icon up tpwards the middle of the button */
+  the arrow icon up towards the middle of the button */
   line-height: 1;
 }
 
