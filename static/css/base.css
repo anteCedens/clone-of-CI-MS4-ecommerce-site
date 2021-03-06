@@ -117,6 +117,10 @@ as they are displayed as Bulma 'cards' */
     color: #ffffff;
 }
 
+.card .subtitle {
+    padding: 0.5em 0;
+}
+
 /* Make all the 'contents' of the #log-in-button the same color */
 #log-in-button * {
     color: #ffffff;
