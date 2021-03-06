@@ -28,6 +28,11 @@ div[class="dropdown-trigger"] p {
     font-size: larger;
 }
 
+#sort-selector {
+    font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 29%);
+}
+
 .hero.is-info {
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
