@@ -246,7 +246,7 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: pink;
+    background-color: #8a0303; /*alt.: #ef999f*/
     height: 50px;
     width: 50px;
     transform: rotate(-45deg);
@@ -255,7 +255,7 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
     animation-iteration-count: infinite;
   }
   .heart:after {
-    background-color: pink;
+    background-color: #8a0303; /*alt.: #ef999f*/
     content: "";
     border-radius: 50%;
     position: absolute;
@@ -265,7 +265,7 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
     left: 25px;
   }
   .heart:before {
-    background-color: pink;
+    background-color: #8a0303; /*alt.: #ef999f*/
     content: "";
     border-radius: 50%;
     position: absolute;
