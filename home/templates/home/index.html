@@ -10,9 +10,9 @@
             <h1 class="title">
                 Welcome To Our Online Bookstore!
             </h1>
-            
+
             <div class="dropdown is-hoverable">
-                <div class="dropdown-trigger">
+                <div class="dropdown-trigger" id="browse-button">
                     <a class="button" aria-haspopup="true" aria-controls="dropdown-menu7" href="{% url 'products' %}">
                         <span class="icon">
                             <i class="fa fa-book"></i>
@@ -24,6 +24,9 @@
                         </span>
                         -->
                     </a>
+                </div>
+                <div class="hide">
+                    Hidden
                 </div>
                 <!--
                 <div class="dropdown-menu" id="dropdown-menu7" role="menu">
