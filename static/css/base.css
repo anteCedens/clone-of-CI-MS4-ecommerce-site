@@ -217,7 +217,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 #browse-button:hover ~ .dropdown-menu .hide {
   display: block;
-  color: red;
+  position: absolute;
+  top: 35px;
+  left: 60px;
 }
 
 /* START: Heartbeat animation 
@@ -238,7 +240,7 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
   }*/
 
   .heart {
-    /* position: absolute; */
+    position: absolute;
     margin: auto;
     top: 0;
     right: 0;
