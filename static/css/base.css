@@ -275,11 +275,11 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
     left: 0px;
   }
 
-  @keyframes backdiv {
+  /*@keyframes backdiv {
     50% {
       background: #ffe6f2;
     }
-  }
+  }*/
 
   @keyframes beat {
     0% {
