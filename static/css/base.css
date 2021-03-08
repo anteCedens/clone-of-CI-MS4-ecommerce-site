@@ -177,6 +177,10 @@ a[class="dropdown-item"]:hover {
     color: #ffffff;
 }
 
+#quantity-control-form label{
+    color: #fff;
+}
+
 /*
 .card-content p {
     color: purple!important;
