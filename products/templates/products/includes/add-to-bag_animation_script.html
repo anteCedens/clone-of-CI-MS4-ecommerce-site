@@ -5,7 +5,8 @@
             var button = $(this);
             var bag = $('#bag');
             var bagTotal = bag.attr('data-totalitems');
-            var newBagTotal = parseInt(bagTotal) + 1;
+            var userInput = $('input[name="quantity"]').value;
+            var newBagTotal = parseInt(bagTotal) + userInput;
 
             button.addClass('sendtobag');
             setTimeout(function () {

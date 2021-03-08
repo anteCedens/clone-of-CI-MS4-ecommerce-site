@@ -327,6 +327,7 @@ https://codepen.io/designcouch/pen/OJPdZxg */
 }
 .page-wrapper button .bag-item:before {
   content: '+';
+  /*content: attr(data-totalitems);*/
   display: block;
   line-height: 24px;
   height: 24px;
