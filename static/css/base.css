@@ -292,6 +292,10 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
 
 /* END: Heartbeat animation */
 
+#addtobag {
+    cursor: pointer;
+}
+
 /* START: Add-to-Bag animation functionality related styling
 https://codepen.io/designcouch/pen/OJPdZxg */
 .page-wrapper {
