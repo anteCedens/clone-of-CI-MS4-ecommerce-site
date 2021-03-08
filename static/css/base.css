@@ -332,10 +332,10 @@ https://codepen.io/designcouch/pen/OJPdZxg */
 }
 .page-wrapper button.sendtobag .bag-item {
   display: block;
-  animation: xAxis 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+  animation: xAxis 1s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .page-wrapper button.sendtobag .bag-item:before {
-  animation: yAxis 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation: yAxis 1s alternate forwards cubic-bezier(1, 0.44, 0.84, 0.165);
 }
 .bag {
   /*position: fixed;
@@ -375,12 +375,12 @@ https://codepen.io/designcouch/pen/OJPdZxg */
 }
 @keyframes xAxis {
   100% {
-    transform: translateX(calc(50vw - 105px));
+    transform: translateX(calc(50vw - 300px));
   }
 }
 @keyframes yAxis {
   100% {
-    transform: translateY(calc(-50vh + 75px));
+    transform: translateY(calc(-50vh - 300px));
   }
 }
 @keyframes shakeBag {
