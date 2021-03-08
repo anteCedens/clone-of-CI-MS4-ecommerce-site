@@ -76,50 +76,50 @@
                     <input class="input" type="number" name="quantity" value="1" min="1" max="99"
                         data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
                 </div>
+            </div>
 
-                <div class="field is-grouped">
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link" data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                        <span class="icon">
+                            <i class="fas fa-minus"></i>
+                        </span>
+                    </button>
                     <div class="control">
                         <button class="button is-link" data-item_id="{{ product.id }}"
-                            id="decrement-qty_{{ product.id }}">
+                            id="increment-qty_{{ product.id }}">
                             <span class="icon">
-                                <i class="fas fa-minus"></i>
+                                <i class="fas fa-plus"></i>
                             </span>
                         </button>
-                        <div class="control">
-                            <button class="button is-link" data-item_id="{{ product.id }}"
-                                id="increment-qty_{{ product.id }}">
-                                <span class="icon">
-                                    <i class="fas fa-plus"></i>
-                                </span>
-                            </button>
-                        </div>
+                    </div>
 
 
-
-                    </div>
-                    
-                    <div class="page-wrapper">
-                        <button id="addtobag">
-                            Add to Bag
-                            <span class="bag-item"></span>
-                        </button>
-                    </div>
-                    <div>
-                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                    </div>
 
                 </div>
-                <!--
+
+                <div class="page-wrapper">
+                    <button id="addtobag">
+                        Add to Bag
+                        <span class="bag-item"></span>
+                    </button>
+                </div>
+                <div>
+                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                </div>
+
+            </div>
+            <!--
             <div class="control">
                 <button class="button is-link">Submit</button>
             </div>
             -->
-                <!--
+            <!--
                 <div class="control">
                     <button class="button is-link is-light">Cancel</button>
                 </div>
                 -->
-                <!--</div>-->
+            <!--</div>-->
 
         </form>
     </div>
