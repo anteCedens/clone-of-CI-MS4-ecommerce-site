@@ -5,21 +5,21 @@
         <label class="label">Quantity:</label>
         <div class="control">
             <input class="input qty_input" type="number" name="quantity" value="1" min="1" max="99"
-                data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
         </div>
     </div>
 
     <div class="field is-grouped">
         <div class="control">
-            <button class="button is-link decrement-qty" data-item_id="{{ product.id }}"
-                id="decrement-qty_{{ product.id }}">
+            <button class="button is-link decrement-qty" data-item_id="{{ item.item_id }}"
+                id="decrement-qty_{{ item.item_id }}">
                 <span class="icon">
                     <i class="fas fa-minus"></i>
                 </span>
             </button>
             <div class="control">
-                <button class="button is-link increment-qty" data-item_id="{{ product.id }}"
-                    id="increment-qty_{{ product.id }}">
+                <button class="button is-link increment-qty" data-item_id="{{ item.item_id }}"
+                    id="increment-qty_{{ item.item_id }}">
                     <span class="icon">
                         <i class="fas fa-plus"></i>
                     </span>
