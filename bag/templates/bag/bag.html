@@ -23,7 +23,7 @@
             </tr>
         </thead>
         <tfoot>
-            <h6><strong>Bag Total: €{{ total|floatformat:2 }}</strong></h6>
+            <h6><strong>Items: €{{ total|floatformat:2 }}</strong></h6>
             <h6>Delivery: €{{ delivery|floatformat:2 }}</h6>
             <h4><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
             {% if free_delivery_delta > 0 %}
