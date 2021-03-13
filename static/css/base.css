@@ -147,7 +147,9 @@ a[class="dropdown-item"] {
     font-size: larger;
 }
 
-a[class="dropdown-item"]:hover {
+a[class="dropdown-item"]:hover, 
+.update-link:hover, 
+.remove-item:hover {
     font-weight: bold!important;
     text-shadow: 2px 2px 4px #ffffff!important;
     background-color: transparent!important;
