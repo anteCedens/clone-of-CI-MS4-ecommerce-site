@@ -28,7 +28,7 @@
             <h4><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
             {% if free_delivery_delta > 0 %}
             <p>
-                You could get free delivery by spending just <strong>€{{ free_delivery_delta }}</strong> more!
+                You're <strong>€{{ free_delivery_delta }}</strong> away from a free delivery...
             </p>
             {% endif %}
         </tfoot>
