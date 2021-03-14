@@ -368,7 +368,8 @@ https://codepen.io/designcouch/pen/OJPdZxg */
 }
 .bag:before {
   font-family: "Font Awesome 5 Free";
-  content: "\f581";
+  /*content: "\f581";*/
+  content: attr(data-totalitems);
   font-size: 12px;
   font-weight: 600;
   position: absolute;
