@@ -23,9 +23,24 @@
             </tr>
         </thead>
         <tfoot>
-            <h6><strong>Items: €{{ total|floatformat:2 }}</strong></h6>
-            <h6>Delivery: €{{ delivery|floatformat:2 }}</h6>
-            <h4><strong>Bag Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
+            <h6>
+                <span class="icon">
+                    <i class="fa fa-book"></i>
+                </span>
+                <strong>Items: €{{ total|floatformat:2 }}</strong>
+            </h6>
+            <h6>
+                <span class="icon">
+                    <i class="fas fa-truck"></i>
+                </span>
+                Delivery: €{{ delivery|floatformat:2 }}
+            </h6>
+            <h4>
+                <span class="icon">
+                    <i class="fas fa-equals"></i>
+                </span>
+                <strong>Bag Grand Total: €{{ grand_total|floatformat:2 }}</strong>
+            </h4>
             {% if free_delivery_delta > 0 %}
             <p>
                 You're <strong>€{{ free_delivery_delta }}</strong> away from a free delivery...
@@ -63,6 +78,7 @@
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-shopping-cart"></i>
                         </span>
                         <span class="text-uppercase">Keep Shopping</span>
                     </a>
@@ -70,6 +86,7 @@
                         <span class="text-uppercase">Secure Checkout</span>
                         <span class="icon">
                             <i class="fas fa-lock"></i>
+                            <i class="fas fa-chevron-right"></i>
                         </span>
                     </a>
                 </td>
@@ -104,23 +121,23 @@
 
 <script type="text/javascript">
     // Update quantity on click
-    $('.update-link').click(function(e) {
+    $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
         form.submit();
     })
 
     // Remove item and reload on click
-    $('.remove-item').click(function(e) {
+    $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         //var size = $(this).data('product_size');
         var url = `/bag/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken/*, 'product_size': size*/};
+        var data = { 'csrfmiddlewaretoken': csrfToken/*, 'product_size': size*/ };
 
         $.post(url, data)
-         .done(function() {
-             location.reload();
-         });
+            .done(function () {
+                location.reload();
+            });
     })
 </script>
 {% endblock %}
