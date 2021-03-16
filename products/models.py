@@ -39,3 +39,27 @@ class Product(models.Model):
         max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+
+
+class Author(models.Model):
+    book_title = models.ForeignKey(
+        'Product', null=True, blank=True, on_delete=models.SET_NULL, related_name='+')
+    # name = models.ForeignKey(
+        # 'Name', null=True, blank=True, on_delete=models.SET_NULL)
+    name_and_surname = models.TextField(max_length=254)
+    year_of_birth = models.IntegerField(null=True, blank=True)
+    year_of_death = models.IntegerField(null=True, blank=True)
+    bio = models.TextField(null=True, blank=True)
+    external_links = models.URLField(null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+
+
+class Publisher(models.Model):
+    book_title = models.ForeignKey(
+        'Product', null=True, blank=True, on_delete=models.SET_NULL, related_name='+')
+    publisher_name = models.CharField(max_length=254, null=True, blank=True)
+    description = models.TextField(null=True, blank=True)
+    external_links = models.URLField(null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
