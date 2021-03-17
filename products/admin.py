@@ -37,22 +37,18 @@ class CategoryAdmin(admin.ModelAdmin):
 
 class AuthorAdmin(admin.ModelAdmin):
     list_display = (
-        'name_and_surname',
         'year_of_birth',
         'year_of_death',
         'bio',
         'external_links',
-        'book_title',
         'image',
     )
 
 
 class PublisherAdmin(admin.ModelAdmin):
     list_display = (
-        'publisher_name',
         'description',
         'external_links',
-        'book_title',
         'image',
     )
 
