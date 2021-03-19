@@ -39,7 +39,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 class AuthorAdmin(admin.ModelAdmin):
     list_display = (
-        'name',
+        'author_name',
         'year_of_birth',
         'year_of_death',
         'bio',
@@ -50,7 +50,7 @@ class AuthorAdmin(admin.ModelAdmin):
 
 class PublisherAdmin(admin.ModelAdmin):
     list_display = (
-        'publisher',
+        'publisher_name',
         'description',
         'external_links',
         'image',
