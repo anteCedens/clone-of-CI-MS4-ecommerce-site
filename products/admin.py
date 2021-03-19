@@ -12,9 +12,11 @@ class ProductAdmin(admin.ModelAdmin):
     """
     list_display = (
         'sku',
+        'author',
         'name',
         'friendly_name',
-        'author',
+        'publisher',
+        'year',
         'category',
         'price',
         'rating',
@@ -37,6 +39,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 class AuthorAdmin(admin.ModelAdmin):
     list_display = (
+        'name',
         'year_of_birth',
         'year_of_death',
         'bio',
@@ -47,6 +50,7 @@ class AuthorAdmin(admin.ModelAdmin):
 
 class PublisherAdmin(admin.ModelAdmin):
     list_display = (
+        'publisher',
         'description',
         'external_links',
         'image',

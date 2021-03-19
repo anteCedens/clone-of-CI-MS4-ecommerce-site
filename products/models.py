@@ -51,12 +51,17 @@ class Product(models.Model):
 class Author(models.Model):
     name = models.ForeignKey(
         'Product', null=True, on_delete=models.SET_NULL, related_name='+')
-    year_of_birth = models.IntegerField(null=True, blank=True)
-    year_of_death = models.IntegerField(null=True, blank=True)
+    year_of_birth = models.PositiveIntegerField(
+        max_length=4, null=True, blank=True)
+    year_of_death = models.PositiveIntegerField(
+        max_length=4, null=True, blank=True)
     bio = models.TextField(null=True, blank=True)
     external_links = models.URLField(null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
 
 
 class Publisher(models.Model):
@@ -66,3 +71,6 @@ class Publisher(models.Model):
     external_links = models.URLField(null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+
+    def __str__(self):
+        return self.publisher
