@@ -23,7 +23,7 @@ class Category(models.Model):
 
 class Product(models.Model):
     category = models.ForeignKey(
-        'Category', null=True, blank=True, on_delete=models.SET_NULL)
+        Category, null=True, blank=True, on_delete=models.SET_NULL)
     """
     Each product will require a name, author, and price,
     but everything else is set as optional
@@ -49,8 +49,8 @@ class Product(models.Model):
 
 
 class Author(models.Model):
-    name = models.ForeignKey(
-        'Product', null=True, on_delete=models.SET_NULL, related_name='+')
+    author_name = models.ForeignKey(
+        Product, null=True, on_delete=models.SET_NULL, related_name='+')
     year_of_birth = models.PositiveIntegerField(
         max_length=4, null=True, blank=True)
     year_of_death = models.PositiveIntegerField(
@@ -61,16 +61,16 @@ class Author(models.Model):
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return self.author_name
 
 
 class Publisher(models.Model):
-    publisher = models.ForeignKey(
-        'Product', null=True, on_delete=models.SET_NULL, related_name='+')
+    publisher_name = models.ForeignKey(
+        Product, null=True, on_delete=models.SET_NULL, related_name='+')
     description = models.TextField(null=True, blank=True)
     external_links = models.URLField(null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
-        return self.publisher
+        return self.publisher_name
