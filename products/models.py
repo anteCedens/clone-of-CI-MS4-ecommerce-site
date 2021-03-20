@@ -18,7 +18,7 @@ class Category(models.Model):
     def __str__(self):
         return self.friendly_name
 
-    #def get_friendly_name(self):
+    # def get_friendly_name(self):
     #    return self.friendly_name
 
 
@@ -29,7 +29,8 @@ class Product(models.Model):
     Each product will require a name, author, and price,
     but everything else is set as optional
     """
-    sku = models.CharField(max_length=254, null=True, blank=True)
+    sku = models.CharField('SKU', max_length=254,
+                           blank=True, unique=True, null=True)
     name = models.TextField(max_length=254)
     author = models.TextField(max_length=254)
     publisher = models.CharField(max_length=254, null=True, blank=True)
