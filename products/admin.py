@@ -17,7 +17,7 @@ class ProductAdmin(admin.ModelAdmin):
         'friendly_name',
         'publisher',
         'year',
-        'category',
+        #'category',
         'price',
         'rating',
         'image',
@@ -50,7 +50,7 @@ class AuthorAdmin(admin.ModelAdmin):
 
 class PublisherAdmin(admin.ModelAdmin):
     list_display = (
-        'publisher_name',
+        'name',
         'description',
         'external_links',
         'image',
