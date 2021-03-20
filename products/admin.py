@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category
+from .models import Product, Category, Author
 
 # Register your models here.
 
@@ -34,5 +34,15 @@ class CategoryAdmin(admin.ModelAdmin):
     )
 
 
+class AuthorAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+        'year_of_birth',
+        'year_of_death',
+        'image',
+    )
+
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
+admin.site.register(Author, AuthorAdmin)

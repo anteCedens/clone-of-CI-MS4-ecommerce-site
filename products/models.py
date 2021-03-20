@@ -44,3 +44,18 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Author(models.Model):
+    name = models.TextField(max_length=254)
+    year_of_birth = models.PositiveIntegerField(
+        null=True, blank=True)
+    year_of_death = models.PositiveIntegerField(
+        null=True, blank=True)
+    bio = models.TextField(blank=True, null=True)
+    external_links = models.URLField(blank=True, null=True)
+    image_url = models.URLField('Image URL', max_length=1024, blank=True, null=True)
+    image = models.ImageField(blank=True, null=True)
+
+    def __str__(self):
+        return self.name
