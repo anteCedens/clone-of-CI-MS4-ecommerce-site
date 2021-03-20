@@ -47,7 +47,8 @@ class Product(models.Model):
 
 
 class Author(models.Model):
-    author_name = models.TextField(max_length=254)
+    author_name = models.ForeignKey(
+        Product, null=True, on_delete=models.SET_NULL, related_name='+')
     year_of_birth = models.PositiveIntegerField(
         null=True, blank=True)
     year_of_death = models.PositiveIntegerField(
