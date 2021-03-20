@@ -34,15 +34,5 @@ class CategoryAdmin(admin.ModelAdmin):
     )
 
 
-class AuthorAdmin(admin.ModelAdmin):
-    list_display = (
-        'author_name',
-        'year_of_birth',
-        'year_of_death',
-        'image',
-    )
-
-
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(Author, AuthorAdmin)
