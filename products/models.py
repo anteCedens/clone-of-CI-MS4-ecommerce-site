@@ -13,12 +13,12 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(
-        max_length=254, help_text='This name will be displayed when selecting a category for a new product entry')
+        max_length=254, null=True, help_text='This name will be displayed when selecting a category for a new product entry')
 
     def __str__(self):
         return self.friendly_name
 
-    #def get_friendly_name(self):
+    # def get_friendly_name(self):
     #    return self.friendly_name
 
 
