@@ -36,7 +36,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 class AuthorAdmin(admin.ModelAdmin):
     list_display = (
-        'name',
+        'author_name',
         'year_of_birth',
         'year_of_death',
         'image',
