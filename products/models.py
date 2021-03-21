@@ -23,8 +23,9 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey(
-        'Category', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ManyToManyField(
+        Category, blank=True,
+        help_text='Select a category for this book')
     """
     Each product will require a name, author, and price,
     but everything else is set as optional
@@ -38,7 +39,8 @@ class Product(models.Model):
     language = models.CharField(max_length=254, null=True, blank=True)
     rating = models.DecimalField(
         max_digits=6, decimal_places=2, null=True, blank=True)
-    image_url = models.URLField('Image URL', max_length=1024, null=True, blank=True)
+    image_url = models.URLField(
+        'Image URL', max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
