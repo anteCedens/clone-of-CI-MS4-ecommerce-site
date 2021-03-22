@@ -17,13 +17,11 @@ class Category(models.Model):
     def __str__(self):
         return self.friendly_name
 
-    #def get_friendly_name(self):
+    # def get_friendly_name(self):
     #    return self.friendly_name
 
 
 class Product(models.Model):
-    category = models.ForeignKey(
-        'Category', null=True, blank=True, on_delete=models.SET_NULL)
     """
     Each product will require a name, author, and price,
     but everything else is set as optional
@@ -31,10 +29,14 @@ class Product(models.Model):
     sku = models.CharField('SKU', max_length=254, null=True, blank=True)
     name = models.TextField(max_length=254)
     author = models.TextField(max_length=254)
+    category = models.ManyToManyField(
+        Category, blank=True,
+        help_text='Select a category for this book.')
     publisher = models.CharField(max_length=254, null=True, blank=True)
     year = models.IntegerField(null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     rating = models.DecimalField(
         max_digits=6, decimal_places=2, null=True, blank=True)
-    image_url = models.URLField('Image URL', max_length=1024, null=True, blank=True)
+    image_url = models.URLField(
+        'Image URL', max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
