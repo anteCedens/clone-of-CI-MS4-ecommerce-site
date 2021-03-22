@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category
+from .models import Product, Category, Publisher
 
 # Register your models here.
 
@@ -36,5 +36,16 @@ class CategoryAdmin(admin.ModelAdmin):
     ordering = ('friendly_name',)
 
 
+class PublisherAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+        'description',
+        'image',
+    )
+
+    ordering = ('name',)
+
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
+admin.site.register(Publisher, PublisherAdmin)
