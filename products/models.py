@@ -32,7 +32,8 @@ class Product(models.Model):
     category = models.ManyToManyField(
         Category, blank=True,
         help_text='Select a category for this book.')
-    publisher = models.CharField(max_length=254, null=True, blank=True)
+    publisher = models.ForeignKey(
+        'Publisher', null=True, blank=True, on_delete=models.SET_NULL, related_name='+')
     year = models.IntegerField(null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     rating = models.DecimalField(
