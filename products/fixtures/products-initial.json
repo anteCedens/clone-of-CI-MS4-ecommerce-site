@@ -1,0 +1,1532 @@
+[ 
+   { 
+      "pk": 1,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5001340155",
+         "name": "John Peel",
+         "author": "Wall, Mick",
+         "publisher": "Orion",
+         "year": "2005",
+         "price": 5.6,
+         "category": 2,
+         "language": "",
+         "rating": 4.1,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41dBkoEUzNL._SX326_BO1,204,203,200_.jpg",
+         "image": "41dBkoEUzNL._SX326_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 2,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5001600425",
+         "name": "The Olivetti Chronicles",
+         "author": "Peel, John",
+         "publisher": "Corgi",
+         "year": "2009",
+         "price": 15.98,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51QLwevogAL._SX319_BO1,204,203,200_.jpg",
+         "image": "51QLwevogAL._SX319_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 3,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5001730010",
+         "name": "23 Things They Don't Tell You About Capitalism",
+         "author": "Chang, Ha-Joon",
+         "publisher": "Penguin",
+         "year": "2011",
+         "price": 8.44,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/515651qy1NL._SX322_BO1,204,203,200_.jpg",
+         "image": "515651qy1NL._SX322_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 4,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5001890157",
+         "name": "Derek Jarman (Critical Lives)",
+         "author": "Charlesworth, Michael",
+         "publisher": "Reaktion Books",
+         "year": "2011",
+         "price": 12.51,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/31FTcu9VIkL._SX325_BO1,204,203,200_.jpg",
+         "image": "31FTcu9VIkL._SX325_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 5,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002111605",
+         "name": "Thomas Sowell Reader",
+         "author": "Sowell, Thomas",
+         "publisher": "Basic Books",
+         "year": "2011",
+         "price": 24.18,
+         "category": 2,
+         "language": "",
+         "rating": 4.9,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41bQ49MpBxL._SX327_BO1,204,203,200_.jpg",
+         "image": "41bQ49MpBxL._SX327_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 6,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002260206",
+         "name": "Derrida: A Very Short Introduction (Very Short Introductions)",
+         "author": "Glendinning, Simon",
+         "publisher": "OUP Oxford",
+         "year": "2011",
+         "price": 6.83,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/418tRgl8MhL._SX304_BO1,204,203,200_.jpg",
+         "image": "418tRgl8MhL._SX304_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 7,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002440521",
+         "name": "Barthes: A Very Short Introduction (Very Short Introductions)",
+         "author": "Culler, Jonathan",
+         "publisher": "OUP Oxford",
+         "year": "2002",
+         "price": 6.37,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51wZNiEo6cL._SX315_BO1,204,203,200_.jpg",
+         "image": "51wZNiEo6cL._SX315_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 8,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002601115",
+         "name": "The Uses of Literacy: Aspects of Working-Class Life (Penguin Modern Classics)",
+         "author": "Hoggart, Richard",
+         "publisher": "Penguin Classics",
+         "year": "2009",
+         "price": 9.75,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51SPSlc3m0L._SX324_BO1,204,203,200_.jpg",
+         "image": "51SPSlc3m0L._SX324_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 9,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002690715",
+         "name": "Sade, Fourier, Loyola",
+         "author": "Barthes, Roland",
+         "publisher": "Jonathan Cape Ltd",
+         "year": "1977",
+         "price": 80.74,
+         "category": 2,
+         "language": "",
+         "rating": "4.5",
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41V0-Ur2lWL._SY279_BO1,204,203,200_.jpg",
+         "image": "41V0-Ur2lWL._SY279_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 10,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002701115",
+         "name": "Anatomy and Physiology",
+         "author": "Betts, J. Gordon; Desaix, Peter; Johnson, Eddie; Johnson, Jody E.; Korol, Oksana; Kruse, Dean; Poe, Brandon; Wise, James A.; Womble, Mark; Young, Kelly A.",
+         "publisher": "OpenStax",
+         "year": "2013",
+         "price": 55.55,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/41b+kC7GQVL.jpg",
+         "image": "41b+kC7GQVL.jpg"
+      }
+   },
+   { 
+      "pk": 11,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002761055",
+         "name": "Elementary Algebra",
+         "author": "Marecek, Lynn; Anthony-Smith, MaryAnne",
+         "publisher": "OpenStax",
+         "year": "2017",
+         "price": 43.14,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/41U6Caj1YoL.jpg",
+         "image": "41U6Caj1YoL.jpg"
+      }
+   },
+   { 
+      "pk": 12,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002820069",
+         "name": "Precalculus",
+         "author": "Abramson, Jay",
+         "publisher": "OpenStax",
+         "year": "2014",
+         "price": 47.92,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://m.media-amazon.com/images/I/41OIG1yIfIL.jpg",
+         "image": "41OIG1yIfIL.jpg"
+      }
+   },
+   { 
+      "pk": 13,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002820147",
+         "name": "U.S. History",
+         "author": "Corbett, P. Scott; Lund Janssen, Volker John M.; Pfannestiel, Todd; Vickery, Paul",
+         "publisher": "OpenStax",
+         "year": "2014",
+         "price": 48.11,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/41qthoPq73L.jpg",
+         "image": "41qthoPq73L.jpg"
+      }
+   },
+   { 
+      "pk": 14,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002910572",
+         "name": "Concepts of Biology",
+         "author": "Fowler, Samantha; Roush, Rebecca; Wise, James",
+         "publisher": "OpenStax",
+         "year": "2013",
+         "price": 33.72,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/41iOwSrIByL.jpg",
+         "image": "41iOwSrIByL.jpg"
+      }
+   },
+   { 
+      "pk": 15,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5002990740",
+         "name": "Introductory Statistics",
+         "author": "Illowsky, Barbara; Dean, Susan",
+         "publisher": "OpenStax",
+         "year": "2013",
+         "price": 36.68,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/41osXGPfHpL.jpg",
+         "image": "41osXGPfHpL.jpg"
+      }
+   },
+   { 
+      "pk": 16,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003050248",
+         "name": "Mythologies (Vintage Classics)",
+         "author": "Barthes, Roland",
+         "publisher": "Vintage Classics",
+         "year": "2009",
+         "price": 8.43,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41utpFVaE7L._SX325_BO1,204,203,200_.jpg",
+         "image": "41utpFVaE7L._SX325_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 17,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003070787",
+         "name": "Introducing Barthes: A Graphic Guide",
+         "author": "Thody, Philip; Piero",
+         "publisher": "Icon Books Ltd",
+         "year": "2011",
+         "price": 7.36,
+         "category": 2,
+         "language": "",
+         "rating": 4.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51RSAjzTaNL._SX347_BO1,204,203,200_.jpg",
+         "image": "51RSAjzTaNL._SX347_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 18,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003090182",
+         "name": "Understanding Statistics and Experimental Design : How to Not Lie with Statistics (Learning Materials in Biosciences)",
+         "author": "Herzog, Michael H.; Francis, Gregory; Clarke, Aaron",
+         "publisher": "Springer",
+         "year": "2019",
+         "price": 43.06,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://m.media-amazon.com/images/I/41evT1GvHML.jpg",
+         "image": "41evT1GvHML.jpg"
+      }
+   },
+   { 
+      "pk": 19,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003090186",
+         "name": "Computer Science: A Very Short Introduction (Very Short Introductions)",
+         "author": "Dasgupta, Subrata",
+         "publisher": "OUP Oxford",
+         "year": "2016",
+         "price": 6.86,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51i27A0hvGL._SX317_BO1,204,203,200_.jpg",
+         "image": "51i27A0hvGL._SX317_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 20,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003161326",
+         "name": "Tank Girl 1 (Remastered edition)",
+         "author": " Martin, Alan; Hewlett, Jamie ",
+         "publisher": "Titan Books Ltd",
+         "year": "2009",
+         "price": 13.4,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51NFaqH7kmL._SX328_BO1,204,203,200_.jpg",
+         "image": "51NFaqH7kmL._SX328_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 21,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003230723",
+         "name": "Tank Girl 3 (Remastered Edition)",
+         "author": " Martin, Alan; Hewlett, Jamie ",
+         "publisher": "Titan Books Ltd",
+         "year": "2009",
+         "price": 9.55,
+         "category": 2,
+         "language": "",
+         "rating": 4.9,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51Plty7FLXL._SX328_BO1,204,203,200_.jpg",
+         "image": "51Plty7FLXL._SX328_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 22,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003270936",
+         "name": "Tank Girl 2 (Remastered Edition)",
+         "author": "Martin, Alan; Hewlett, Jamie",
+         "publisher": "Titan Books Ltd",
+         "year": "2009",
+         "price": 12.59,
+         "category": 2,
+         "language": "",
+         "rating": 4.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51AgRcHSmCL._SX328_BO1,204,203,200_.jpg",
+         "image": "51AgRcHSmCL._SX328_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 23,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003360384",
+         "name": "Introducing Kierkegaard: A Graphic Guide",
+         "author": "Robinson, Dave; Zarate, Oscar ",
+         "publisher": "Icon Books Ltd",
+         "year": "2013",
+         "price": 7.44,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51pC4RPycRL._SX345_BO1,204,203,200_.jpg",
+         "image": "51pC4RPycRL._SX345_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 24,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003440111",
+         "name": "Introducing Continental Philosophy: A Graphic Guide",
+         "author": "Kul-Want, Christopher; Piero",
+         "publisher": "Icon Books Ltd",
+         "year": "2013",
+         "price": 7.65,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51eelOll0HL._SX349_BO1,204,203,200_.jpg",
+         "image": "51eelOll0HL._SX349_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 25,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003540313",
+         "name": "Introducing Existentialism: A Graphic Guide",
+         "author": "Appignanesi, Richard; Zarate, Oscar",
+         "publisher": "Icon Books Ltd",
+         "year": "2013",
+         "price": 4.83,
+         "category": 2,
+         "language": "",
+         "rating": 3.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51FhVHYCmjL._SX349_BO1,204,203,200_.jpg",
+         "image": "51FhVHYCmjL._SX349_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 26,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003560513",
+         "name": "Shakespeare (Vintage Lives)",
+         "author": "Burgess, Anthony",
+         "publisher": "Vintage Classics",
+         "year": "1996",
+         "price": 9.04,
+         "category": 2,
+         "language": "",
+         "rating": 3.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51wWEbER2IL._SX322_BO1,204,203,200_.jpg",
+         "image": "51wWEbER2IL._SX322_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 27,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003560948",
+         "name": "Re Joyce",
+         "author": "Burgess, Anthony",
+         "publisher": "W. W. Norton & Company",
+         "year": "1968",
+         "price": 40.07,
+         "category": 2,
+         "language": "",
+         "rating": 4.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/4165f3eGJgL._SX331_BO1,204,203,200_.jpg",
+         "image": "4165f3eGJgL._SX331_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 28,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003570628",
+         "name": "The Complete Works of William Shakespeare: The Alexander Text (Collins Classics)",
+         "author": "Shakespeare, William",
+         "publisher": "Collins",
+         "year": "2011",
+         "price": 12.54,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/51lor+HEO6L.jpg",
+         "image": "51lor+HEO6L.jpg"
+      }
+   },
+   { 
+      "pk": 29,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003620308",
+         "name": "Introducing Logic: A Graphic Guide",
+         "author": "Cryan, Dan; Shatil, Sharron; Mayblin, Bill",
+         "publisher": "Icon Books Ltd",
+         "year": "2008",
+         "price": 7.39,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/510yenbWc5L._SX349_BO1,204,203,200_.jpg",
+         "image": "510yenbWc5L._SX349_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 30,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003690115",
+         "name": "Introducing Derrida: A Graphic Guide",
+         "author": "Collins, Jeff; Mayblin, Bill",
+         "publisher": "Icon Books Ltd",
+         "year": "2011",
+         "price": 7.39,
+         "category": 2,
+         "language": "",
+         "rating": 4.1,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51z+-+TTXkL._SX346_BO1,204,203,200_.jpg",
+         "image": "51z+-+TTXkL._SX346_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 31,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003690116",
+         "name": "Introducing Critical Theory: A Graphic Guide",
+         "author": "Sim, Stuart; Van Loon, Borin",
+         "publisher": "Icon Books Ltd",
+         "year": "2009",
+         "price": 7.39,
+         "category": 2,
+         "language": "",
+         "rating": 4.1,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51icsfBgsTL._SX349_BO1,204,203,200_.jpg",
+         "image": "51icsfBgsTL._SX349_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 32,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003780391",
+         "name": "Pro Git",
+         "author": "Chacon, Scott; Straub, Ben",
+         "publisher": "Apress",
+         "year": "2014",
+         "price": 36.08,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://m.media-amazon.com/images/I/51QQtVlsWsL.jpg",
+         "image": "51QQtVlsWsL.jpg"
+      }
+   },
+   { 
+      "pk": 33,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003790542",
+         "name": "Python for Everybody: Exploring Data in Python 3",
+         "author": "Severance, Charles; Andrion, Aimee",
+         "publisher": "CreateSpace Independent Publishing Platform",
+         "year": "2016",
+         "price": 8.06,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/51lpFL7BFZL.jpg",
+         "image": "51lpFL7BFZL.jpg"
+      }
+   },
+   { 
+      "pk": 34,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003831225",
+         "name": "Statistics For Dummies, 2nd Edition (For Dummies (Lifestyle))",
+         "author": "Rumsey, Deborah J.",
+         "publisher": "For Dummies",
+         "year": "2016",
+         "price": 13.46,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/510ji8hv83L._SX396_BO1,204,203,200_.jpg",
+         "image": "510ji8hv83L._SX396_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 35,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003861402",
+         "name": "Lectures on Probability Theory and Mathematical Statistics - 3rd Edition",
+         "author": "Taboga, Marco",
+         "publisher": "CreateSpace Independent Publishing Platform",
+         "year": "2017",
+         "price": 33.82,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/412tf1z1G0L._SX348_BO1,204,203,200_.jpg",
+         "image": "412tf1z1G0L._SX348_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 36,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003910638",
+         "name": " The Art of Statistics: Learning from Data (Pelican Books)",
+         "author": "Spiegelhalter, David",
+         "publisher": "Pelican",
+         "year": "2020",
+         "price": 9.38,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41avZxZMM4L._SX305_BO1,204,203,200_.jpg",
+         "image": "41avZxZMM4L._SX305_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 37,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003950574",
+         "name": "jQuery: Novice to Ninja",
+         "author": "Castledine, Earle; Sharkie, Craig",
+         "publisher": "SitePoint",
+         "year": "2012",
+         "price": 27.15,
+         "category": 2,
+         "language": "",
+         "rating": 4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51flz8dUVJL._SX400_BO1,204,203,200_.jpg",
+         "image": "51flz8dUVJL._SX400_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 38,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003950576",
+         "name": "CSS (with HTML5): Learn CSS in One Day and Learn It Well. CSS for Beginners with Hands-on Project. Includes HTML5. (Learn Coding Fast with Hands-On Project Book 2)",
+         "author": "Chan, Jamie",
+         "publisher": "Learn Coding Fast",
+         "year": "2015",
+         "price": 12.69,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/51tmSgIwQSL.jpg",
+         "image": "51tmSgIwQSL.jpg"
+      }
+   },
+   { 
+      "pk": 39,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003960062",
+         "name": "PHP: Learn PHP in One Day and Learn It Well. PHP for Beginners with Hands-on Project. (Learn Coding Fast with Hands-On Project Book 6)",
+         "author": "Chan, Jamie",
+         "publisher": "Learn Coding Fast",
+         "year": "2020",
+         "price": 10.72,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://m.media-amazon.com/images/I/51dfjVcxrxL.jpg",
+         "image": "51dfjVcxrxL.jpg"
+      }
+   },
+   { 
+      "pk": 40,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003960682",
+         "name": "The Fundamentals of HTML5: Learn to Code So You Can Improve in Your Career!",
+         "author": "Nijenhuis, T.J.P.",
+         "publisher": "DK",
+         "year": "2018",
+         "price": 4,
+         "category": 2,
+         "language": "",
+         "rating": 5,
+         "image_url": "https://m.media-amazon.com/images/I/41WFOrq7WyL.jpg",
+         "image": "41WFOrq7WyL.jpg"
+      }
+   },
+   { 
+      "pk": 41,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003960775",
+         "name": "HTML5 Beginner to Professional Step by Step Training Guide",
+         "author": "Kumar, Rajesh",
+         "publisher": "big5 publisher",
+         "year": "2017",
+         "price": 1.13,
+         "category": 2,
+         "language": "",
+         "rating": 3.4,
+         "image_url": "https://m.media-amazon.com/images/I/41d7eZxtl6L.jpg",
+         "image": "41d7eZxtl6L.jpg"
+      }
+   },
+   { 
+      "pk": 42,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003990736",
+         "name": "The Joy of Bootstrap: A smarter way to learn the world's most popular web framework",
+         "author": "Forbes, Alan",
+         "publisher": "Plum Island Publishing",
+         "year": "2014",
+         "price": 7.48,
+         "category": 2,
+         "language": "",
+         "rating": 3.6,
+         "image_url": "https://m.media-amazon.com/images/I/51+p6vUygeL.jpg",
+         "image": "51+p6vUygeL.jpg"
+      }
+   },
+   { 
+      "pk": 43,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5003990746",
+         "name": "Python Tricks: A Buffet of Awesome Python Features",
+         "author": "Bader, Dan",
+         "publisher": "Dan Bader (dbader.org)",
+         "year": "2017",
+         "price": 24.39,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://m.media-amazon.com/images/I/51z7XBWJb2L.jpg",
+         "image": "51z7XBWJb2L.jpg"
+      }
+   },
+   { 
+      "pk": 44,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004111503",
+         "name": "Python Workbook: Learn Python in one day and Learn It Well (Learn Coding Fast Workbook 1)",
+         "author": "Chan, Jamie",
+         "publisher": "Independently published",
+         "year": "2019",
+         "price": 8.38,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/51MCJBbJQXL.jpg",
+         "image": "51MCJBbJQXL.jpg"
+      }
+   },
+   { 
+      "pk": 45,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004230059",
+         "name": "Learn Coding Basics in Hours with JavaScript: An Introduction to Computer Programming for Absolute Beginners",
+         "author": "Stanley, Jack; Gross, Erik",
+         "publisher": "Jack Stanley",
+         "year": "2020",
+         "price": 13.16,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/41FaquhvGbL.jpg",
+         "image": "41FaquhvGbL.jpg"
+      }
+   },
+   { 
+      "pk": 46,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004310089",
+         "name": "The C# Programming Yellow Book",
+         "author": "Miles, Rob",
+         "publisher": "",
+         "year": "2014",
+         "price": 1.13,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/41l9j22l7xL.jpg",
+         "image": "41l9j22l7xL.jpg"
+      }
+   },
+   { 
+      "pk": 47,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004610254",
+         "name": "SQL: Learn SQL (using MySQL) in One Day and Learn It Well (Learn Coding Fast with Hands-On Project Book 5)",
+         "author": "Chan, Jamie",
+         "publisher": "Independently published",
+         "year": "2018",
+         "price": 10.18,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://m.media-amazon.com/images/I/51xD7Z6BAuL.jpg",
+         "image": "51xD7Z6BAuL.jpg"
+      }
+   },
+   { 
+      "pk": 48,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004650050",
+         "name": "A Practical Guide to Git and GitHub for Windows Users: From Beginner to Expert in Easy Step-By-Step Exercises",
+         "author": "Vormittag, Roberto",
+         "publisher": "Reiter Consulting",
+         "year": "2016",
+         "price": 2.6,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/51Jd-B+tAwL.jpg",
+         "image": "51Jd-B+tAwL.jpg"
+      }
+   },
+   { 
+      "pk": 49,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004821375",
+         "name": "The Linux Command Line Beginner's Guide",
+         "author": "Moeller, Jonathan",
+         "publisher": "Azure Flame Media",
+         "year": "2013",
+         "price": 10.66,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://m.media-amazon.com/images/I/511utqN1BwL.jpg",
+         "image": "511utqN1BwL.jpg"
+      }
+   },
+   { 
+      "pk": 50,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004900522",
+         "name": "Coding for Beginners: Using Python",
+         "author": "Stowell, Louie",
+         "publisher": "Usborne Publishing",
+         "year": "2017",
+         "price": 10.61,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://m.media-amazon.com/images/I/61RDtukB7DL.jpg",
+         "image": "61RDtukB7DL.jpg"
+      }
+   },
+   { 
+      "pk": 51,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004910158",
+         "name": "Learn AngularJS in 1 Day: Complete Angular JS Guide with Examples",
+         "author": "Rungta, Krishna",
+         "publisher": "Independently published",
+         "year": "2018",
+         "price": 11.85,
+         "category": 2,
+         "language": "",
+         "rating": 3.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51ZY+asOq9L._SX384_BO1,204,203,200_.jpg",
+         "image": "51ZY+asOq9L._SX384_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 52,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004910477",
+         "name": "Probability Theory: A Concise Course (Dover Books on Mathematics)",
+         "author": "Rozanov, Y. A.",
+         "publisher": "Dover Publications Inc.",
+         "year": "1978",
+         "price": 8.37,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/413gQh90ZgL._SX322_BO1,204,203,200_.jpg",
+         "image": "413gQh90ZgL._SX322_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 53,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004940703",
+         "name": "Vue JS Crash Course : Learn all about Vue.js including what it is, Vue-CLI, components, data, events, directives, etc",
+         "author": "Wountrang Publications",
+         "publisher": "Wountrang Publications",
+         "year": "2020",
+         "price": 8.7,
+         "category": 2,
+         "language": "",
+         "rating": "4.5",
+         "image_url": "https://m.media-amazon.com/images/I/411t-fJndqL.jpg",
+         "image": "411t-fJndqL.jpg"
+      }
+   },
+   { 
+      "pk": 54,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004991006",
+         "name": "Angular JS: 'A Code Like a Pro Guide' For AngularJS Beginners",
+         "author": "Bates, Jonathan",
+         "publisher": "",
+         "year": "2016",
+         "price": 1.13,
+         "category": 2,
+         "language": "",
+         "rating": 5,
+         "image_url": "https://m.media-amazon.com/images/I/51FwuAIXBvL.jpg",
+         "image": "51FwuAIXBvL.jpg"
+      }
+   },
+   { 
+      "pk": 55,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5004991162",
+         "name": "Coding with AngularJS For Dummies: Introduction to Developing Web Applications with AngularJS",
+         "author": "Aronowitz, Alexander",
+         "publisher": "Independently published",
+         "year": "2020",
+         "price": 15.42,
+         "category": 2,
+         "language": "",
+         "rating": "4.5",
+         "image_url": "https://m.media-amazon.com/images/I/41ZV464XBkL.jpg",
+         "image": "41ZV464XBkL.jpg"
+      }
+   },
+   { 
+      "pk": 56,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005000046",
+         "name": "Learning React js: Learn React JS From Scratch with Hands-On Projects , 2nd Edition",
+         "author": "Alves, Claudia",
+         "publisher": "Independently published",
+         "year": "2020",
+         "price": 12.41,
+         "category": 2,
+         "language": "",
+         "rating": 2.5,
+         "image_url": "https://m.media-amazon.com/images/I/419fw0tHJ4L.jpg",
+         "image": "419fw0tHJ4L.jpg"
+      }
+   },
+   { 
+      "pk": 57,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005070254",
+         "name": "The Life and Times of Little Richard: The Authorised Biography",
+         "author": "White, Charles",
+         "publisher": "Omnibus Press",
+         "year": "2003",
+         "price": 17.8,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41WYq0qDmoL._SX311_BO1,204,203,200_.jpg",
+         "image": "41WYq0qDmoL._SX311_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 58,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005071145",
+         "name": "The Thief's Journal",
+         "author": "Genet, Jean",
+         "publisher": "Faber & Faber",
+         "year": "2019",
+         "price": 9.15,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/411j940W7OL._SX324_BO1,204,203,200_.jpg",
+         "image": "411j940W7OL._SX324_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 59,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005140282",
+         "name": "Our Lady of the Flowers",
+         "author": "Genet, Jean",
+         "publisher": "Faber & Faber",
+         "year": "2019",
+         "price": 9.15,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41CqzvT+FFL._SX324_BO1,204,203,200_.jpg",
+         "image": "41CqzvT+FFL._SX324_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 60,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005200166",
+         "name": "Memoirs (Penguin Modern Classics)",
+         "author": "Williams, Tennessee",
+         "publisher": "Penguin Classics",
+         "year": "2007",
+         "price": 10.3,
+         "category": 2,
+         "language": "",
+         "rating": 4.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41CqzvT+FFL._SX324_BO1,204,203,200_.jpg",
+         "image": "41CqzvT+FFL._SX324_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 61,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005210241",
+         "name": "If Chins Could Kill: Confessions of a B Movie Actor",
+         "author": "Campbell, Bruce",
+         "publisher": "Aurum Press Ltd",
+         "year": "2009",
+         "price": 13.04,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/513hCiUGZML._SX312_BO1,204,203,200_.jpg",
+         "image": "513hCiUGZML._SX312_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 62,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005280104",
+         "name": "America",
+         "author": "Baudrillard, Jean",
+         "publisher": "Verso",
+         "year": "2010",
+         "price": 10.93,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41F-SWZPF5L._SX329_BO1,204,203,200_.jpg",
+         "image": "41F-SWZPF5L._SX329_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 63,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005310360",
+         "name": "A User’s Guide to the Millennium: Essays and Reviews",
+         "author": "Ballard, J. G.",
+         "publisher": "Flamingo",
+         "year": "1997",
+         "price": 9.95,
+         "category": 2,
+         "language": "",
+         "rating": 5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51jJhuxCdoL._SX331_BO1,204,203,200_.jpg",
+         "image": "51jJhuxCdoL._SX331_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 64,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005330595",
+         "name": "Flim-Flam!: Psychics, ESP, Unicorns and other Delusions",
+         "author": "Randi, James",
+         "publisher": "Prometheus Books",
+         "year": "1982",
+         "price": 18.27,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/413PFP04T3L._SX326_BO1,204,203,200_.jpg",
+         "image": "413PFP04T3L._SX326_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 65,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005330596",
+         "name": "Where Does Money Come From?",
+         "author": "Ryan-Collins, Josh; Greenham, Tony; Werner, Richard; Jackson, Andrew",
+         "publisher": "Independently published",
+         "year": "2017",
+         "price": 11.44,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41UNKQsFpUL._SX331_BO1,204,203,200_.jpg",
+         "image": "41UNKQsFpUL._SX331_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 66,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005430914",
+         "name": "The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns",
+         "author": "Bogle, John C.",
+         "publisher": "Wiley",
+         "year": "2017",
+         "price": 12.24,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51cCQzs8EBL._SX352_BO1,204,203,200_.jpg",
+         "image": "51cCQzs8EBL._SX352_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 67,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005430944",
+         "name": "The Essays of Warren Buffett: Lessons for Investors and Managers",
+         "author": "Cunningham, Lawrence A.",
+         "publisher": "Wiley",
+         "year": "2013",
+         "price": 11.33,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51+PhnbYqYL._SX331_BO1,204,203,200_.jpg",
+         "image": "51+PhnbYqYL._SX331_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 68,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005510265",
+         "name": "Upheavals of Thought: The Intelligence of Emotions",
+         "author": "Nussbaum, Martha C.",
+         "publisher": "Cambridge University Press",
+         "year": "2003",
+         "price": 32.97,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41gSXHP+GtL._SX331_BO1,204,203,200_.jpg",
+         "image": "41gSXHP+GtL._SX331_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 69,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005520201",
+         "name": "Beksiński: Fotografia/photography",
+         "author": "Banach, Wieslaw",
+         "publisher": "Bosz",
+         "year": "2019",
+         "price": 4.2,
+         "category": 2,
+         "language": "",
+         "rating": 5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/418BALm4kaL._SX348_BO1,204,203,200_.jpg",
+         "image": "418BALm4kaL._SX348_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 70,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005520205",
+         "name": "Beksinski : Malarstwo / Painting",
+         "author": "Banach, Wieslaw",
+         "publisher": "Bosz",
+         "year": "2014",
+         "price": 8.57,
+         "category": 2,
+         "language": "",
+         "rating": 4.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/512E7uwmUPL._SX367_BO1,204,203,200_.jpg",
+         "image": "512E7uwmUPL._SX367_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 71,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005630545",
+         "name": "Origins of Psychic Phenomena: Poltergeists, Incubi, Succubi, and the Unconscious",
+         "author": "Gooch, Stan",
+         "publisher": "Inner Traditions",
+         "year": "2007",
+         "price": 6.78,
+         "category": 2,
+         "language": "",
+         "rating": 4.1,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51v95efUBML._SX331_BO1,204,203,200_.jpg",
+         "image": "51v95efUBML._SX331_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 72,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005630605",
+         "name": "The Gilded Gutter Life Of Francis Bacon: The Authorized Biography",
+         "author": "Farson, Daniel",
+         "publisher": "Vintage",
+         "year": "1994",
+         "price": 14.11,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51RhxkjILAL._SX323_BO1,204,203,200_.jpg",
+         "image": "51RhxkjILAL._SX323_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 73,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005630637",
+         "name": "Interviews with Francis Bacon: The Brutality of Fact",
+         "author": "Sylvester, David",
+         "publisher": "Thames and Hudson Ltd",
+         "year": "2016",
+         "price": 13.57,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41X5vLCReuL._SX332_BO1,204,203,200_.jpg",
+         "image": "41X5vLCReuL._SX332_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 74,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005630638",
+         "name": "If This Is a Man / The Truce",
+         "author": "Levi, Primo",
+         "publisher": "Abacus",
+         "year": "1991",
+         "price": 9.16,
+         "category": 2,
+         "language": "",
+         "rating": 4.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41lLG-8G2uL._SX311_BO1,204,203,200_.jpg",
+         "image": "41lLG-8G2uL._SX311_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 75,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005650677",
+         "name": "The Periodic Table (Penguin Modern Classics)",
+         "author": "Levi, Primo",
+         "publisher": "Penguin Classics",
+         "year": "2000",
+         "price": 7.32,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/510yyxydRnL._SX324_BO1,204,203,200_.jpg",
+         "image": "510yyxydRnL._SX324_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 76,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005700140",
+         "name": "The Portable Atheist: Essential Readings for the Non-Believer",
+         "author": "Hitchens, Christopher",
+         "publisher": "Da Capo Press",
+         "year": "2007",
+         "price": 12.2,
+         "category": 2,
+         "language": "",
+         "rating": 4.6,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51EKvw6DnfL._SY321_BO1,204,203,200_.jpg",
+         "image": "51EKvw6DnfL._SY321_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 77,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005740430",
+         "name": "Solitary Fitness - the Ultimate Workout from Britain's Most Notorious Prisoner",
+         "author": "Bronson, Charles",
+         "publisher": "John Blake Publishing Ltd",
+         "year": "2007",
+         "price": 7.89,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51PJ0ML1GoL._SX322_BO1,204,203,200_.jpg",
+         "image": "51PJ0ML1GoL._SX322_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 78,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005740561",
+         "name": "Chopper Unchopped",
+         "author": "Read, Mark Brandon",
+         "publisher": "Momentum",
+         "year": "2012",
+         "price": 10.86,
+         "category": 2,
+         "language": "",
+         "rating": 3.9,
+         "image_url": "https://m.media-amazon.com/images/I/51YKDcRzvmL.jpg",
+         "image": "51YKDcRzvmL.jpg"
+      }
+   },
+   { 
+      "pk": 79,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005740634",
+         "name": "The Rough Guide to Rock",
+         "author": "Buckley, Jonathan",
+         "publisher": "Rough Guides",
+         "year": "2003",
+         "price": 4.19,
+         "category": 2,
+         "language": "",
+         "rating": 3.9,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51RFEG4GS6L._SX347_BO1,204,203,200_.jpg",
+         "image": "51RFEG4GS6L._SX347_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 80,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005760088",
+         "name": "The Rough Guide to Sci-Fi Movies",
+         "author": "Scalzi, John",
+         "publisher": "Rough Guides",
+         "year": "2005",
+         "price": 1.15,
+         "category": 2,
+         "language": "",
+         "rating": 4.1,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/515YRVD59DL._SY496_BO1,204,203,200_.jpg",
+         "image": "515YRVD59DL._SY496_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 81,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005810108",
+         "name": "The Rough Guide to Heavy Metal",
+         "author": "Berelian, Essi",
+         "publisher": "Rough Guides",
+         "year": "2005",
+         "price": 18.31,
+         "category": 2,
+         "language": "",
+         "rating": 4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51G8XBP4M5L._SX350_BO1,204,203,200_.jpg",
+         "image": "51G8XBP4M5L._SX350_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 82,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005820197",
+         "name": "The Rough Guide to Soul and R&B",
+         "author": "Shapiro, Peter",
+         "publisher": "Rough Guides",
+         "year": "2006",
+         "price": 8.22,
+         "category": 2,
+         "language": "",
+         "rating": 3.8,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51v2xvIGIFL._SX356_BO1,204,203,200_.jpg",
+         "image": "51v2xvIGIFL._SX356_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 83,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005840598",
+         "name": "The Rough Guide to Horror Movies",
+         "author": "Jones, Alan",
+         "publisher": "Rough Guides",
+         "year": "2005",
+         "price": 26.73,
+         "category": 2,
+         "language": "",
+         "rating": 4.7,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51pyS97q1oL._SX490_BO1,204,203,200_.jpg",
+         "image": "51pyS97q1oL._SX490_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 84,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005840776",
+         "name": "The Rough Guide to Cult Movies - 2nd Edition",
+         "author": "Simpson, Paul",
+         "publisher": "Rough Guides",
+         "year": "2004",
+         "price": 17.18,
+         "category": 2,
+         "language": "",
+         "rating": 3.5,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/21ldKSYT-RL._BO1,204,203,200_.jpg",
+         "image": "21ldKSYT-RL._BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 85,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005850180",
+         "name": "The Rough Guide to Punk",
+         "author": "Spicer, Al",
+         "publisher": "Rough Guides",
+         "year": "2006",
+         "price": 18.31,
+         "category": 2,
+         "language": "",
+         "rating": 4.1,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51UM21d0BAL._SX358_BO1,204,203,200_.jpg",
+         "image": "51UM21d0BAL._SX358_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 86,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005851218",
+         "name": "Hatchet Job: Love Movies, Hate Critics",
+         "author": "Kermode, Mark",
+         "publisher": "Picador",
+         "year": "2014",
+         "price": 8.01,
+         "category": 2,
+         "language": "",
+         "rating": 4.2,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/513p-n8PjWL._SX328_BO1,204,203,200_.jpg",
+         "image": "513p-n8PjWL._SX328_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 87,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005860175",
+         "name": "Leo Tolstoy (Critical Lives)",
+         "author": "Zorin, Andrei",
+         "publisher": "Reaktion Books",
+         "year": "2020",
+         "price": 10.18,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41WrxEV3fRL._SX323_BO1,204,203,200_.jpg",
+         "image": "41WrxEV3fRL._SX323_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 88,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005860263",
+         "name": "The Good, the Bad and the Multiplex",
+         "author": "Kermode, Mark",
+         "publisher": "Arrow",
+         "year": "2012",
+         "price": 9.15,
+         "category": 2,
+         "language": "",
+         "rating": 4.3,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51HEQsi+5pL._SX323_BO1,204,203,200_.jpg",
+         "image": "51HEQsi+5pL._SX323_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 89,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005870183",
+         "name": "It's Only a Movie: Reel Life Adventures of a Film Obsessive",
+         "author": "Kermode, Mark",
+         "publisher": "Random House",
+         "year": "2010",
+         "price": 2.29,
+         "category": 2,
+         "language": "",
+         "rating": 4.2,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51OSoEK9KfL._SX310_BO1,204,203,200_.jpg",
+         "image": "51OSoEK9KfL._SX310_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 90,
+      "model": "products.product",
+      "fields": { 
+         "sku": "pp5005870599",
+         "name": "Oxford Modern English Grammar",
+         "author": "Aarts, Bas",
+         "publisher": "OUP Oxford",
+         "year": "2011",
+         "price": 22.89,
+         "category": 2,
+         "language": "",
+         "rating": 4.4,
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41pPcSuBsJL._SX330_BO1,204,203,200_.jpg",
+         "image": "41pPcSuBsJL._SX330_BO1,204,203,200_.jpg"
+      }
+   }
+]
