@@ -1,0 +1,32 @@
+[ 
+   { 
+      "pk": 1,
+      "model": "products.publisher",
+      "fields": { 
+         "name": "Orion",
+         "external_links": "https://www.orionbooks.co.uk/",
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41dBkoEUzNL._SX326_BO1,204,203,200_.jpg",
+         "image": "41dBkoEUzNL._SX326_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 2,
+      "model": "products.publisher",
+      "fields": { 
+         "name": "Corgi",
+         "external_links": "https://www.penguin.co.uk/company/publishers/transworld/corgi.html",
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51QLwevogAL._SX319_BO1,204,203,200_.jpg",
+         "image": "51QLwevogAL._SX319_BO1,204,203,200_.jpg"
+      }
+   },
+   { 
+      "pk": 3,
+      "model": "products.publisher",
+      "fields": { 
+         "name": "Penguin",
+         "external_links": "https://www.penguin.co.uk/",
+         "image_url": "https://images-na.ssl-images-amazon.com/images/I/515651qy1NL._SX322_BO1,204,203,200_.jpg",
+         "image": "515651qy1NL._SX322_BO1,204,203,200_.jpg"
+      }
+   }
+]
