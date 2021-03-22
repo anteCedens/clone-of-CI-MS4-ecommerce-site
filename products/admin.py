@@ -39,7 +39,7 @@ class CategoryAdmin(admin.ModelAdmin):
 class PublisherAdmin(admin.ModelAdmin):
     list_display = (
         'name',
-        'description',
+        'external_links',
         'image',
     )
 
