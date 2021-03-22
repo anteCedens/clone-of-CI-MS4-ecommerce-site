@@ -43,3 +43,14 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Publisher(models.Model):
+    name = models.CharField(max_length=254, blank=True)
+    description = models.TextField(blank=True)
+    external_links = models.URLField(blank=True)
+    image_url = models.URLField('Image URL', max_length=1024, blank=True)
+    image = models.ImageField(blank=True)
+
+    def __str__(self):
+        return self.name
