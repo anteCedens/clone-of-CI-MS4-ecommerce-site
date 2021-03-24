@@ -179,7 +179,8 @@ a[class="dropdown-item"]:hover,
     color: #ffffff;
 }
 
-#quantity-control-form label{
+#quantity-control-form label, 
+div[class="field"] label[class="label"] {
     color: #fff;
 }
 
