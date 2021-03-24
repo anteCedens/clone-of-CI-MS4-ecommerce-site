@@ -80,11 +80,7 @@
 
             <div class="field is-grouped">
                 <div class="control">
-                    <button class="button is-link decrement-qty" data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                        <span class="icon">
-                            <i class="fas fa-minus"></i>
-                        </span>
-                    </button>
+
                     <div class="control">
                         <button class="button is-link increment-qty" data-item_id="{{ product.id }}"
                             id="increment-qty_{{ product.id }}">
@@ -94,6 +90,14 @@
                         </button>
                     </div>
 
+                    <div class="control">
+                        <button class="button is-link decrement-qty" data-item_id="{{ product.id }}"
+                            id="decrement-qty_{{ product.id }}">
+                            <span class="icon">
+                                <i class="fas fa-minus"></i>
+                            </span>
+                        </button>
+                    </div>
 
 
                 </div>
