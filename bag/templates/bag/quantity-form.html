@@ -1,34 +1,39 @@
 <form action="{% url 'adjust_bag' item.item_id %}" method="POST" class="quantity-control-form update-form">
 
     {% csrf_token %}
-    <div class="field">
-        <label class="label">Quantity:</label>
-        <div class="control">
-            <input class="input qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
-        </div>
-    </div>
 
-    <div class="field is-grouped">
-        <div class="control">
-            <button class="button is-link decrement-qty" data-item_id="{{ item.item_id }}"
-                id="decrement-qty_{{ item.item_id }}">
-                <span class="icon">
-                    <i class="fas fa-minus"></i>
-                </span>
-            </button>
-        </div>
-        <div class="control">
-            <button class="button is-link increment-qty" data-item_id="{{ item.item_id }}"
-                id="increment-qty_{{ item.item_id }}">
-                <span class="icon">
-                    <i class="fas fa-plus"></i>
-                </span>
-            </button>
-        </div>
+    <label class="label">Quantity:
+        <div class="field is-grouped">
 
-    </div>
+            <div class="control">
+                <button class="button is-link decrement-qty" data-item_id="{{ item.item_id }}"
+                    id="decrement-qty_{{ item.item_id }}">
+                    <span class="icon">
+                        <i class="fas fa-minus"></i>
+                    </span>
+                </button>
+            </div>
 
+
+
+            <div class="control">
+                <input class="input qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1"
+                    max="99" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+            </div>
+
+
+
+            <div class="control">
+                <button class="button is-link increment-qty" data-item_id="{{ item.item_id }}"
+                    id="increment-qty_{{ item.item_id }}">
+                    <span class="icon">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                </button>
+            </div>
+
+        </div>
+    </label>
 
     <!--
         <div class="page-wrapper">
