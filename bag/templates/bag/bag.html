@@ -17,9 +17,9 @@
             <tr>
                 <th>Items Info</th>
                 <th></th>
-                <th>Item Total</th>
-                <th>Qty</th>
                 <th>Unit Price</th>
+                <th>Qty</th>
+                <th>Item Total</th>
             </tr>
         </thead>
         <tfoot>
@@ -57,7 +57,7 @@
                     <p>SKU: {{ item.product.sku|upper }}</p>
                 </td>
                 <td>
-                    <p>€{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                    <p>€{{ item.product.price }}</p>
                 </td>
                 <td>
 
@@ -69,7 +69,7 @@
                     -->
                 </td>
                 <td>
-                    <p>€{{ item.product.price }}</p>
+                    <p>€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                 </td>
             </tr>
             {% endfor %}
