@@ -184,6 +184,10 @@ div[class="field"] label[class="label"] {
     color: #fff;
 }
 
+tbody td {
+    width: 1rem;
+}
+
 /*
 .card-content p {
     color: purple!important;
