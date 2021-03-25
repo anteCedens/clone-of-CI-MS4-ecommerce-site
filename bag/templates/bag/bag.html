@@ -6,7 +6,8 @@
 
 
 
-<h1 id="bag-product-count-display" data-product_count="{{ product_count }}">Your Shopping Bag: {{ product_count }} items</h1>
+<h1 id="bag-product-count-display" data-product_count="{{ product_count }}">Your Shopping Bag: {{ product_count }} items
+</h1>
 
 <hr>
 
@@ -56,9 +57,13 @@
                     <p><strong>{{ item.product.author}}</strong></p>
                     <p>SKU: {{ item.product.sku|upper }}</p>
                 </td>
+
                 <td>
-                    <p>€{{ item.product.price }}</p>
+                    <p>Unit Price: €{{ item.product.price }}</p>
+                    <p>Quantity: {{ item.quantity }}</p>
+                    <p>Item Total: €{{ item.product.price | calc_subtotal:item.quantity }}</p>
                 </td>
+
                 <td>
 
                     {% include "bag/quantity-form.html" %}
@@ -68,9 +73,11 @@
                     "><small>Remove</small></a>
                     -->
                 </td>
+
                 <td>
-                    <p>€{{ item.product.price | calc_subtotal:item.quantity }}</p>
+
                 </td>
+
             </tr>
             {% endfor %}
             <tr>
