@@ -184,6 +184,10 @@ div[class="field"] label[class="label"] {
     color: #fff;
 }
 
+.table-container table {
+    background-color: transparent;
+}
+
 tbody td {
     width: 1rem;
 }
