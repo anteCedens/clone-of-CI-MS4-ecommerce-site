@@ -197,6 +197,14 @@ tbody td {
     width: 1rem;
 }
 
+a[class="remove-item"] {
+    margin-right: 1em;
+}
+
+a[class="update-link"] {
+    margin-left: 1em;
+}
+
 /*
 .card-content p {
     color: purple!important;
