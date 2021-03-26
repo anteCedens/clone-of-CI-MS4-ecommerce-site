@@ -71,15 +71,15 @@
             {% endfor %}
             <tr>
                 <td colspan="5" class="text-right">
-                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                    <a href="{% url 'products' %}" id="keep-shopping">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                             <i class="fas fa-shopping-cart"></i>
                         </span>
-                        <span class="text-uppercase">Keep Shopping</span>
+                        <span>Keep Shopping</span>
                     </a>
-                    <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
-                        <span class="text-uppercase">Secure Checkout</span>
+                    <a href="{% url 'checkout' %}" id="secure-checkout">
+                        <span>Secure Checkout</span>
                         <span class="icon">
                             <i class="fas fa-lock"></i>
                             <i class="fas fa-chevron-right"></i>

@@ -198,11 +198,13 @@ tbody td {
     width: 1rem;
 }
 
-a[class="remove-item"] {
+a[class="remove-item"], 
+#keep-shopping {
     margin-right: 1em;
 }
 
-a[class="update-link"] {
+a[class="update-link"], 
+#secure-checkout {
     margin-left: 1em;
 }
 
