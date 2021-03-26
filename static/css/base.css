@@ -206,6 +206,12 @@ a[class="update-link"] {
     margin-left: 1em;
 }
 
+.decrement-qty, 
+.increment-qty {
+    color: #fff;
+    background-color: hsl(0, 0%, 29%);
+}
+
 /*
 .card-content p {
     color: purple!important;
