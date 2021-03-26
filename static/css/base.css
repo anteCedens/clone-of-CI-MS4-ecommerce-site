@@ -189,6 +189,10 @@ div[class="field"] label[class="label"] {
     color: #fff;
 }
 
+label[for="quantity"] {
+    color: #fff;
+}
+
 tbody td {
     width: 1rem;
 }
