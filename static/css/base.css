@@ -189,7 +189,8 @@ div[class="field"] label[class="label"] {
     color: #fff;
 }
 
-label[for="quantity"] {
+label[for="quantity"], 
+.table thead th {
     color: #fff;
 }
 
