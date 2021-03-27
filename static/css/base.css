@@ -214,6 +214,10 @@ a[class="update-link"],
     background-color: hsl(0, 0%, 29%);
 }
 
+input[class="input qty_input"] {
+    font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
+}
+
 /*
 .card-content p {
     color: purple!important;
