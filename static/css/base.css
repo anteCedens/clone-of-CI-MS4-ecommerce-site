@@ -154,7 +154,7 @@ a[class="dropdown-item"]:hover,
     text-shadow: 2px 2px 4px #ffffff!important;
     background-color: transparent!important;
     color: #ffffff!important;
-    font-size: large;
+    /*font-size: large;*/
 }
 /* END: Target dropup/dropdown menu */
 
