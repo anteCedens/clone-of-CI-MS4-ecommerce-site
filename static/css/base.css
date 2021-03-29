@@ -212,10 +212,26 @@ a[class="update-link"],
 .increment-qty {
     color: #fff;
     background-color: hsl(0, 0%, 29%);
+    font-weight: 900!important;
 }
 
 input[class="input qty_input"] {
     font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
+}
+
+#keep-shopping, 
+#secure-checkout {
+    color: #fff;
+    background-color: hsl(0, 0%, 29%);
+    font-weight: bolder;
+}
+
+#keep-shopping:hover, 
+#secure-checkout:hover {
+    /* These colors are to match the Bulma styling
+    for hovering over buttons*/
+    border-color: #b5b5b5;
+    color: #363636;
 }
 
 /*
