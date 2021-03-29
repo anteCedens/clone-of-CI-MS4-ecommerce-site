@@ -262,8 +262,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  color: #fff!important;
+  background-color: hsl(0, 0%, 29%)!important;
+  border: solid 1px #fff!important;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -273,7 +274,8 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 }
 
 #myBtn:hover {
-  background-color: #555;
+  border-color: #b5b5b5!important;
+  color: #363636!important;
 }
 /* END: w3schools.com back-to-top button */
 
