@@ -1,27 +1,6 @@
 <script type="text/javascript">
 
-/*
-    function inputMonitor() {
-        var x = document.getElementById("id_qty_").value;
-        //document.getElementById("bag-item-blip").innerHTML = x;
-        console.log(x);
-
-      //  var x = document.getElementsByClassName("input qty_input").value;
-        document.getElementById("bag-item-blip").setAttribute("data-user_input", x);
-
-        //var currentInputValue = $('input[name="quantity"]').value;
-        //$('#bag-item-blip').attr("data-user_input", currentInputValue);
-    }
-*/
-
     $(document).ready(function () {
-
-        //$("input[name='quantity']").on('input', function () {
-          //  var currentInputValue = $("#id_qty_").value;
-            //console.log(this);
-            //console.log(currentInputValue);
-            //$('#bag-item-blip').attr("data-user_input", currentInputValue);
-        //});
 
         $('#addtobag').on('click', function () {
 
@@ -30,8 +9,6 @@
             var bagTotal = bag.attr('data-totalitems');
             var userInput = $('input[name="quantity"]').value;
             var newBagTotal = parseInt(bagTotal) + userInput;
-
-            //$('#bag-item-blip').attr("data-user_input", userInput);
 
             button.addClass('sendtobag');
             setTimeout(function () {
