@@ -149,12 +149,12 @@ a[class="dropdown-item"] {
 
 a[class="dropdown-item"]:hover, 
 .update-link:hover, 
-.remove-item:hover {
+.remove-item:hover, 
+#back-to-products:hover {
     font-weight: bold!important;
-    text-shadow: 2px 2px 4px #ffffff!important;
+    text-shadow: 2px 2px 4px #fff!important;
     background-color: transparent!important;
-    color: #ffffff!important;
-    /*font-size: large;*/
+    color: #fff!important;
 }
 /* END: Target dropup/dropdown menu */
 
@@ -243,6 +243,24 @@ input[class="input qty_input"] {
     margin-left: 0.65rem;
 }
 
+#back-to-products, 
+#sort-selector, 
+#products-found {
+    margin-left: 1rem;
+}
+
+
+#back-to-products {
+    font-weight: bolder;
+}
+
+#grip-lines-vertical {
+    margin-right: -1rem;
+}
+
+.select {
+    margin-bottom: 0.5rem;
+}
 /*
 .card-content p {
     color: purple!important;

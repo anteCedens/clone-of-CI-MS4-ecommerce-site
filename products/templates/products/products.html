@@ -42,9 +42,18 @@
     <div>
         <p>
             {% if search_term or current_categories or current_sorting != 'None_None' %}
-            <span><a href="{% url 'products' %}">Products Home</a> | </span>
+            <span id="back-to-products">
+                <a href="{% url 'products' %}">
+                    <i class="fas fa-chevron-left"></i> Back
+                </a>
+            </span>
+            <span class="icon" id="grip-lines-vertical">
+                <i class="fas fa-grip-lines-vertical"></i>
+            </span>
             {% endif %}
-            {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+            <span id="products-found">
+                {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+            </span>
         </p>
     </div>
 
