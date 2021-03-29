@@ -52,7 +52,7 @@
                             <!--The 'user friendly name' is displayed on the page,
                             and the 'programmatic name' functions as the href-->
                             <a href="{% url 'products' %}?category={{ product.category.name }}">
-                                <i class="fas fa-folder-open"></i> {{ product.category.friendly_name }}
+                                <i class="fas fa-tag"></i> {{ product.category.friendly_name }}
                             </a>
                         </span>
                         {% endif %}
