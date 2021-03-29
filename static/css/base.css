@@ -409,17 +409,14 @@ https://codepen.io/designcouch/pen/OJPdZxg */
 }
 .page-wrapper button .bag-item:before {
   content: '+';
-  /*content: attr(data-user_input);*/
-  /*content: attr(data-totalitems);*/
-  /*content: '';*/
   display: block;
   line-height: 24px;
   height: 24px;
   width: 24px;
   font-size: 12px;
   font-weight: 600;
-  background: #fff;
-  color: hsl(0, 0%, 29%);
+  background-color: hsl(0, 0%, 29%);
+  color: #fff;
   border-radius: 20px;
   text-align: center;
 }
