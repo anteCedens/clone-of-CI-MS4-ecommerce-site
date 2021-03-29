@@ -239,6 +239,10 @@ input[class="input qty_input"] {
     margin-left: 1rem;
 }
 
+.tfoot h2 {
+    margin-left: 0.65rem;
+}
+
 /*
 .card-content p {
     color: purple!important;
