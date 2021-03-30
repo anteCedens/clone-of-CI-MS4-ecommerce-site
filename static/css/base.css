@@ -380,6 +380,14 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
 
 #addtobag {
     cursor: pointer;
+    background-color: hsl(0, 0%, 29%);
+    color: #fff;
+    font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
+}
+
+#addtobag:hover {
+    border-color: #b5b5b5;
+    color: #363636;
 }
 
 /* START: Add-to-Bag animation functionality related styling
@@ -408,7 +416,9 @@ https://codepen.io/designcouch/pen/OJPdZxg */
   right: -10px;
 }
 .page-wrapper button .bag-item:before {
-  content: '+';
+  font-family: "Font Awesome 5 Free";
+  content: "\f067";
+  /*content: '+';*/
   display: block;
   line-height: 24px;
   height: 24px;
