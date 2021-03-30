@@ -212,6 +212,11 @@ a[class="update-link"],
 .increment-qty {
     color: #fff;
     background-color: hsl(0, 0%, 29%);
+    margin-left: 0.70rem;
+}
+
+.decrement-qty {
+    margin-top: 0.25rem;
 }
 
 input[class="input qty_input"] {
@@ -378,14 +383,16 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
 
 /* END: Heartbeat animation */
 
-#addtobag {
+#addtobag, 
+#back-from-details {
     cursor: pointer;
     background-color: hsl(0, 0%, 29%);
     color: #fff;
     font-family: 'Caveat Brush', Arial, Helvetica, sans-serif;
 }
 
-#addtobag:hover {
+#addtobag:hover, 
+#back-from-details:hover {
     border-color: #b5b5b5;
     color: #363636;
 }

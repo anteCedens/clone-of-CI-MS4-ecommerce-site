@@ -83,18 +83,14 @@
 
             <div class="field is-grouped">
 
-                <div>
-                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                        <div>
-                            <span class="icon">
-                                <i class="fas fa-chevron-left"></i>
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div>
-                            <span>Keep Shopping</span>
-                        </div>
-                    </a>
+                <div class="page-wrapper">
+                    <button class="button" id="back-from-details">
+                        <span>
+                            <a href="{% url 'products' %}">
+                                <i class="fas fa-chevron-left"></i> Back
+                            </a>
+                        </span>
+                    </button>
                 </div>
 
                 <div class="control">
