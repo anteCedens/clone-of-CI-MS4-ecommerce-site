@@ -212,11 +212,6 @@ a[class="update-link"],
 .increment-qty {
     color: #fff;
     background-color: hsl(0, 0%, 29%);
-    margin-left: 0.70rem;
-}
-
-.decrement-qty {
-    margin-top: 0.25rem;
 }
 
 input[class="input qty_input"] {
