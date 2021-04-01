@@ -50,11 +50,6 @@ div[class="dropdown-trigger"] p {
     font-size: 3em;
 }
 
-/* Tagret the logo image */
-/*img[alt="Logo"] {
-    box-shadow: 0px 0px 5px #fff;
-}*/
-
 /* Tagret the logo image & text element */
 #site-logo:hover {
     background-color: transparent;
@@ -259,14 +254,6 @@ input[class="input qty_input"] {
     font-size: 1em;
 }
 
-/*
-.card-content p {
-    color: purple!important;
-    text-align: justify!important;
-    text-justify: inter-word!important;
-}
-*/
-
 /* START: w3schools.com back-to-top button
 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 #myBtn {
@@ -309,20 +296,6 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 /* START: Heartbeat animation 
 https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/make-a-css-heartbeat-using-an-infinite-animation-count */
 
-/*.back {
-    position: fixed;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    animation-name: backdiv;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-  }*/
-
   .heart {
     position: absolute;
     margin: auto;
@@ -358,12 +331,6 @@ https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/m
     top: -25px;
     left: 0px;
   }
-
-  /*@keyframes backdiv {
-    50% {
-      background: #ffe6f2;
-    }
-  }*/
 
   @keyframes beat {
     0% {
@@ -422,7 +389,6 @@ https://codepen.io/designcouch/pen/OJPdZxg */
 .button-wrapper button .bag-item:before {
   font-family: "Font Awesome 5 Free";
   content: "\f067";
-  /*content: '+';*/
   display: block;
   line-height: 24px;
   height: 24px;
@@ -442,11 +408,6 @@ https://codepen.io/designcouch/pen/OJPdZxg */
   animation: yAxis 1s alternate forwards cubic-bezier(1, 0.44, 0.84, 0.165);
 }
 .bag {
-  /*position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;*/
   background: #292d48;
   display: flex;
   align-items: center;
@@ -458,8 +419,6 @@ https://codepen.io/designcouch/pen/OJPdZxg */
   color: white;
 }
 .bag:before {
-  /*font-family: "Font Awesome 5 Free";*/
-  /*content: "\f581";*/
   content: attr(data-totalitems);
   font-size: 12px;
   font-weight: 600;
