@@ -260,6 +260,11 @@ input[class="input qty_input"] {
 .select {
     margin-bottom: 0.5rem;
 }
+
+.publisher {
+    font-size: 1em;
+}
+
 /*
 .card-content p {
     color: purple!important;
